@@ -15,8 +15,17 @@ Here we are just multiplying the inputs acros the weights and summing up the par
  * crenv ("https://github.com/pine/crenv")
  * crenv-update ("https://github.com/pine/crenv-update")
 
-# Results:
+# Results:   
 
-![Results](./comparison.png)
+(See various files under the "stats" folder.)
 
-(See various "stats*.*" files.)
+## Linux
+
+### Mint 17.3 KDE
+
+#### Lenovo
+
+##### Ideapad Y700
+
+![Results](./stats/linux/mint_17.3_kde/lenovo/ideapad_y700/comparison.png)
+
