@@ -18,6 +18,7 @@ Here we are just multiplying the inputs acros the weights and summing up the par
 # Results:   
 
 (See various files under the "stats" folder.)
+(See "http://www.tablesgenerator.com/markdown_tables" for handy md table generator.)
 
 TODO: 
  * To try to get faster MRuby times (and to get a self-contained executable for other comparisons):
@@ -34,5 +35,12 @@ TODO:
 
 ##### Ideapad Y700
 
-![Results](./stats/linux/mint_17.3_kde/lenovo/ideapad_y700/comparison.png)
+![Results](./stats/linux/mint_17.3_kde/Lenovo/ideapad_y700/comparison.png)
 
+### Mint 18 Mate
+
+#### Apple
+
+##### MacBookPro A1398
+
+![Results](./stats/linux/mint_18_mate/Apple/MacBookPro_A1398/comparison.png)

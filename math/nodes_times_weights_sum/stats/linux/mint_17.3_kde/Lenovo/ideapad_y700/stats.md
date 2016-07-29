@@ -1,5 +1,3 @@
-
-
 | Average - duration |                    | Bench seconds |                | 'time' (user) seconds |                |                                              |
 | language           | version            | build/head    | regular/stable | build/head            | regular/stable | comments                                     |
 | ------------------ | ------------------ | ------------- | -------------- | --------------------- | -------------- | -------------------------------------------- |
