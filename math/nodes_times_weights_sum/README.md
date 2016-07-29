@@ -19,6 +19,13 @@ Here we are just multiplying the inputs acros the weights and summing up the par
 
 (See various files under the "stats" folder.)
 
+TODO: 
+ * To try to get faster MRuby times (and to get a self-contained executable for other comparisons):
+   - Clone the MRuby repo
+   - embed the bench test file (wrapped in a class to make it easier to call) into the clone folder
+   - mod `collect.sh` to use the embedded version (i.e.: re-build mruby w/ the bench code embedded into the mruby binary)                   
+   - re-build and re-run the benchmarks  
+
 ## Linux
 
 ### Mint 17.3 KDE
