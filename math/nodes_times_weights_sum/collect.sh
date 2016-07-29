@@ -30,11 +30,11 @@ free -m
 echo
 echo $(pwd)
 
-echo
-
 QTY=1000
-
+echo
 LOG_FILE='stats_previous'
+echo $LOG_FILE
+echo
 
 echo "duration,language,version" > $LOG_FILE.csv
 echo "misc times (TODO: merge w/ csv file)" > $LOG_FILE.times.log 2>&1
@@ -64,7 +64,7 @@ done
 time mruby mruby/bench.rb $QTY >> $LOG_FILE.times.log 2>&1
 
 echo
-echo Crystal 0.18.7 (non-release)
+echo "Crystal 0.18.7 (non-release)"
 
 crenv local 0.18.7
 for VARIABLE in 1 2 3 4 5
@@ -73,8 +73,14 @@ crystal ./crystal/bench.cr $QTY >> $LOG_FILE.csv
 done
 time crystal ./crystal/bench.cr $QTY >> $LOG_FILE.times.log 2>&1
 
-
+echo
 LOG_FILE='stats_latest'
+echo $LOG_FILE
+echo
+
+echo "duration,language,version" > $LOG_FILE.csv
+echo "misc times (TODO: merge w/ csv file)" > $LOG_FILE.times.log 2>&1
+
 
 echo
 rvm use ruby-head
@@ -107,7 +113,7 @@ time mruby mruby/bench.rb $QTY >> $LOG_FILE.times.log 2>&1
 # gcc -o bench_mrb mruby/bench.o mruby/lib/libmruby.a
 
 echo
-echo Crystal 0.18.7 (release)
+echo "Crystal 0.18.7 (release)"
 
 crenv shell 0.18.7
 crystal build ./crystal/bench.cr --release
@@ -116,6 +122,6 @@ for VARIABLE in 1 2 3 4 5
 do
 ./crystal/bench $QTY >> $LOG_FILE.csv
 done
-time crystal ./crystal/bench $QTY >> $LOG_FILE.times.log 2>&1
+time ./crystal/bench $QTY >> $LOG_FILE.times.log 2>&1
 
 echo
