@@ -1,17 +1,24 @@
-q = ARGV[0].to_i || 1000
+q = (ARGV && ARGV.size > 0 ? ARGV[0] : 0).to_i || 1000
+
+def time_delta_to_secs(time_delta)
+  return 0 if (time_delta.to_s == "")
+  parts = time_delta.to_s.split(":")
+  parts[0].to_i*60*60 + parts[1].to_i*60 + parts[2].to_f
+end
+
 if q <= 0
   puts "command format: ruby #{__FILE__} [<qty>] [-v]"
   puts "  <qty> : array width (lenght assumed to be the same)"
   puts "  -v    : show your work"
 else
-  debug = ARGV[1] == "v"
+  debug = (ARGV && ARGV.size > 1 ? ARGV[1] : "") == "v"
   a = Time.now
   n1 = Array.new(q) {|q| rand() }
   w1 = Array.new(q) {|i| Array.new(q) {|j| rand() } }
   n2 = Array.new(q) { 0.0 }
   w1.each_with_index {|wrow, i| wrow.each_with_index {|wcell, j| n2[j] += wcell*n1[i] }}
   b = Time.now
-  d = b-a
+  d = time_delta_to_secs(b-a)
   puts "#{d},Crystal,#{Crystal::VERSION}"
   if debug
     w2 = w1.map_with_index {|wrow, i| wrow.map_with_index {|wcell, j| wcell*n1[i] }}
