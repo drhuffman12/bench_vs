@@ -18,6 +18,7 @@ Here we are just multiplying the inputs acros the weights and summing up the par
 # Results:   
 
 (See various files under the "stats" folder.)
+(See "http://www.tablesgenerator.com/markdown_tables" for handy md table generator.)
 
 TODO: 
  * To try to get faster MRuby times (and to get a self-contained executable for other comparisons):
