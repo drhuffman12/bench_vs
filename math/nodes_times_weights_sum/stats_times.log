@@ -1,0 +1,96 @@
+
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                8
+On-line CPU(s) list:   0-7
+Thread(s) per core:    2
+Core(s) per socket:    4
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 94
+Stepping:              3
+CPU MHz:               1999.968
+BogoMIPS:              5183.91
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              6144K
+NUMA node0 CPU(s):     0-7
+
+             total       used       free     shared    buffers     cached
+Mem:         15907       4098      11808        439         84       2455
+-/+ buffers/cache:       1559      14348
+Swap:        16242          0      16242
+
+stats_previous
+
+
+Warning! PATH is not properly set up, '/home/drhuffman/.rvm/gems/ruby-2.3.1@nodes_times_weights_sum/bin' is not at first place,
+         usually this is caused by shell initialization files - check them for 'PATH=...' entries,
+         it might also help to re-add RVM to your dotfiles: 'rvm get stable --auto-dotfiles',
+         to fix temporarily in this shell session run: 'rvm use ruby-2.3.1@nodes_times_weights_sum'.
+Using /home/drhuffman/.rvm/gems/ruby-2.3.1
+ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+
+real	0m0.189s
+user	0m0.176s
+sys	0m0.012s
+
+Using /home/drhuffman/.rvm/gems/jruby-1.7.25
+jruby 1.7.25 (1.9.3p551) 2016-04-13 867cb81 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_101-b13 +jit [linux-amd64]
+
+real	0m1.557s
+user	0m5.124s
+sys	0m0.164s
+
+Using /home/drhuffman/.rvm/gems/mruby-1.2.0
+Warning! Executable 'gem' missing, something went wrong with this ruby installation!
+mruby 1.2.0 (2015-11-17) 
+
+real	0m2.060s
+user	0m2.036s
+sys	0m0.020s
+
+Crystal 0.18.7 (non-release)
+Crystal 0.18.7 [68783f1] (2016-07-03)
+
+real	0m0.559s
+user	0m0.396s
+sys	0m0.200s
+
+stats_latest
+
+
+Using /home/drhuffman/.rvm/gems/ruby-head
+ruby 2.4.0dev (2016-07-02 trunk 55563) [x86_64-linux]
+
+real	0m0.196s
+user	0m0.196s
+sys	0m0.000s
+
+Using /home/drhuffman/.rvm/gems/jruby-9.1.2.0
+jruby 9.1.2.0 (2.3.0) 2016-05-26 7357c8f Java HotSpot(TM) 64-Bit Server VM 25.101-b13 on 1.8.0_101-b13 +jit [linux-x86_64]
+
+real	0m1.834s
+user	0m5.752s
+sys	0m0.252s
+
+Using /home/drhuffman/.rvm/gems/mruby-head
+Warning! Executable 'gem' missing, something went wrong with this ruby installation!
+mruby 1.2.0 (2015-11-17) 
+
+real	0m1.960s
+user	0m1.948s
+sys	0m0.008s
+
+Crystal 0.18.7 (release)
+Crystal 0.18.7 [68783f1] (2016-07-03)
+
+real	0m0.016s
+user	0m0.016s
+sys	0m0.008s
+
