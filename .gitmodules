@@ -1,0 +1,3 @@
+[submodule "languages/mruby/head/mruby"]
+	path = languages/mruby/head/mruby
+	url = https://github.com/mruby/mruby.git
