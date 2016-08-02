@@ -17,3 +17,17 @@ rvm install jruby-9.1.2.0
 # rvm install jruby-head
 rvm install mruby-head
 crenv install 0.18.7
+
+rm -R tmp/mruby
+mkdir -p tmp/mruby
+cp -R ../../languages/mruby/head/mruby/ tmp
+
+## Mruby:
+
+echo
+echo 'minirake'
+#
+cp mruby/bench.rb tmp/mruby/mrblib
+cd tmp/mruby
+./minirake
+cd ../..
