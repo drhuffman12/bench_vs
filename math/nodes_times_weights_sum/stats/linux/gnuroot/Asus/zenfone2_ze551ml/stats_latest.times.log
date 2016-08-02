@@ -1,0 +1,5 @@
+misc times (TODO: merge w/ csv file)
+1.534457617,ruby,2.4.0
+collect.sh: line 114: jruby: command not found
+10.860826,mruby,1.2.0
+0.0979758,Crystal,0.18.7
