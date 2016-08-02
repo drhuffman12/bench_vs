@@ -2,6 +2,9 @@
 
 QTY=1000
 
+COLLECT_ROOT=$(pwd)
+# echo $COLLECT_ROOT
+
 ## Make RVM and CRENV happy:
 
 # exec $SHELL -l
@@ -36,8 +39,8 @@ free -m
 ## Stats for previous/develop versions/mode:
 
 echo
-LOG_FILE='stats_previous'
-echo $LOG_FILE
+LOG_FILE=$COLLECT_ROOT/stats_previous
+# echo $LOG_FILE
 echo
 
 echo "duration,language,version" > $LOG_FILE.csv
@@ -66,13 +69,12 @@ rvm use mruby
 ruby --version
 for VARIABLE in 1 2 3 4 5
 do
-mruby mruby/bench.rb $QTY >> $LOG_FILE.csv
+ruby mruby/bench.rb $QTY >> $LOG_FILE.csv
 done
-time mruby mruby/bench.rb $QTY >> $LOG_FILE.times.log 2>&1
+time ruby mruby/bench.rb $QTY >> $LOG_FILE.times.log 2>&1
 
 echo
 echo "Crystal 0.18.7 (non-release)"
-
 crenv local 0.18.7
 crystal version
 for VARIABLE in 1 2 3 4 5
@@ -84,8 +86,8 @@ time crystal ./crystal/bench.cr $QTY >> $LOG_FILE.times.log 2>&1
 ## Stats for latest/production versions/mode:
 
 echo
-LOG_FILE='stats_latest'
-echo $LOG_FILE
+LOG_FILE=$COLLECT_ROOT/stats_latest
+# echo $LOG_FILE
 echo
 
 echo "duration,language,version" > $LOG_FILE.csv
@@ -112,14 +114,18 @@ done
 time jruby jruby/bench.rb $QTY >> $LOG_FILE.times.log 2>&1
 
 echo
+echo 'mrb'
 rvm use mruby-head
 ruby --version
-~/.rvm/rubies/mruby-head/bin/mrbc mruby/bench.rb
+#~/.rvm/rubies/mruby-head/bin/mrbc mruby/bench.rb
+mrbc mruby/bench.rb
+ruby -b mruby/bench.mrb $QTY
 for VARIABLE in 1 2 3 4 5
 do
-mruby -b mruby/bench.mrb $QTY >> $LOG_FILE.csv
+ruby -b mruby/bench.mrb $QTY >> $LOG_FILE.csv
 done
-time mruby mruby/bench.rb $QTY >> $LOG_FILE.times.log 2>&1
+time ruby -b mruby/bench.mrb $QTY >> $LOG_FILE.times.log 2>&1
+
 
 # ~/.rvm/rubies/mruby-head/bin/mrbc -Cinit_tester mruby/bench.rb
 # gcc -Imruby/src -Imruby/include -c mruby/bench.c -o mruby/bench.o
@@ -137,5 +143,21 @@ do
 ./crystal/bench $QTY >> $LOG_FILE.csv
 done
 time ./crystal/bench $QTY >> $LOG_FILE.times.log 2>&1
+
+echo
+echo 'minirake'
+# echo "./bench -e \"Bench.run(1000)\"" > mruby/bench.sh
+#
+cp tmp/mruby/bin/mruby mruby/
+mv mruby/mruby mruby/bench
+
+# cd mruby
+mruby/bench --version
+mruby/bench -e "Bench.run(1000)"
+for VARIABLE in 1 2 3 4 5
+do
+mruby/bench -e "Bench.run(1000)" >> $LOG_FILE.csv
+done
+time mruby/bench -e "Bench.run(1000)" >> $LOG_FILE.times.log 2>&1
 
 echo
