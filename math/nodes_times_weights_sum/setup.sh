@@ -23,8 +23,8 @@ else
 
 fi
 
-rvm get stable --auto-dotfiles
-rvm get head
+# rvm get stable --auto-dotfiles
+rvm get head --auto-dotfiles
 rvm cleanup all
 
 git clone https://github.com/pine/crenv-update.git "$(crenv root)/plugins/crenv-update"
