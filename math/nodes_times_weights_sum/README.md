@@ -52,6 +52,11 @@ For this particular benchmark:
   - Crystal is the smallest completely self-containted binary at about 1/2 MB
   - MRuby 'bin' (self-containted w/ the 'bench' file 'classified and embedded') is largest at about 1 1/2 MB (However, I kept getting `Segmentation fault` errors when I tried running it that way, i.e.:`mruby/bench -e "Bench.run(1000)"`. I'd need to look into that more later.)
 
+* Results were proportionally similar (per language) across tested devices:
+  - Lenovo Y700, Mint KDE 17.3
+  - Apple MacBookPro, Mint Mate 18
+  - Asus Zenfone2 ze551ml, Gnuroot
+
 * Crystal wins this round; it seems a good balance of high speed, small built file size, and fairly Ruby-like syntax.
 
 Of course, the 'winners' might vary as you test on other systems, translate to other programming languages, apply various optimizations, scale up the amount of source code, and include other types of algorithms being benchmarked.
