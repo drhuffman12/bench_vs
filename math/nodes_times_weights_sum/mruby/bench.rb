@@ -1,5 +1,5 @@
 class Bench
-  def self.run(qty)
+  def run(qty)
     q = qty || 1000
 
     if q <= 0
@@ -40,7 +40,7 @@ def i_am_running
 end
 if i_am_running
   qty = (ARGV && ARGV.size > 0 ? ARGV[0] : 0).to_i
-  Bench.run(qty)
+  Bench.new.run(qty)
 end
 
 =begin
