@@ -44,3 +44,22 @@ TODO:
 ##### MacBookPro A1398
 
 ![Results](./stats/linux/mint_18_mate/Apple/MacBookPro_A1398/comparison.png)
+
+# Conclusion:
+
+For this particular benchmark:
+* Speed:
+  - Crystal (in 'default' mode) loads about half as fast as Ruby and runs about the same as Ruby
+  - Crystal (in 'release' mode) loads and runs about 10x's faster than Ruby
+  - JRuby (in any mode) loads about 30x's slower than Ruby and runs about 2.5x's slower Ruby
+  - MRuby (in any mode) loads and runs about 10x's slower than Ruby
+
+* Size of 'built' files, compared to the source files, which are about 1 1/4 KB:
+  - MRuby 'mrb' file is the smallest at about 1 1/4 Kb, practically the same size as the source code. (The 'mrb' still needs the 'mruby' binary to run it, but that's probably ok if you have multiple 'mrb' files to run via the same mruby 'bin'.)
+  - Crystal is the smallest completely self-containted binary at about 1/2 MB
+  - MRuby 'bin' (self-containted w/ the 'bench' file 'classified and embedded') is largest at about 1 1/2 MB
+
+* Crystal wins this round; it seems a good balance of high speed, small built file size, and fairly Ruby-like syntax.
+
+Of course, the 'winners' might vary as you test on other systems, scale up the amount of source code, and include other types of algorithms being benchmarked.
+  
