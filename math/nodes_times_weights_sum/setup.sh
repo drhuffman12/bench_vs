@@ -1,5 +1,7 @@
 # bash setup.sh
 
+git submodule update
+
 ## Make RVM and CRENV happy:
 
 # exec $SHELL -l
@@ -44,13 +46,3 @@ crenv install 0.18.7
 rm -R tmp/mruby
 mkdir -p tmp/mruby
 cp -R ../../languages/mruby/head/mruby/ tmp
-
-## Mruby:
-
-echo
-echo 'minirake'
-#
-cp mruby/bench.rb tmp/mruby/mrblib
-cd tmp/mruby
-./minirake
-cd ../..

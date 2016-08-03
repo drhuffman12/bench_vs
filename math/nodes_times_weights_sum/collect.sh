@@ -144,8 +144,15 @@ do
 done
 time ./crystal/bench $QTY >> $LOG_FILE.times.log 2>&1
 
+## Mruby:
+
 echo
 echo 'minirake'
+#
+cp mruby/bench.rb tmp/mruby/mrblib
+cd tmp/mruby
+./minirake -q
+cd ../..
 # echo "./bench -e \"Bench.run(1000)\"" > mruby/bench.sh
 #
 cp tmp/mruby/bin/mruby mruby/
