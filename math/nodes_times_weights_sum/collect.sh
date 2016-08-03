@@ -151,6 +151,8 @@ echo 'minirake'
 #
 cp mruby/bench.rb tmp/mruby/mrblib
 cd tmp/mruby
+
+rvm use ruby-2.3.1
 ./minirake -q
 cd ../..
 # echo "./bench -e \"Bench.run(1000)\"" > mruby/bench.sh
