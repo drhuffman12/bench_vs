@@ -20,13 +20,6 @@ Here we are just multiplying the inputs acros the weights and summing up the par
 (See various files under the "stats" folder.)
 (See "http://www.tablesgenerator.com/markdown_tables" for handy md table generator.)
 
-TODO: 
- * To try to get faster MRuby times (and to get a self-contained executable for other comparisons):
-   - Clone the MRuby repo
-   - embed the bench test file (wrapped in a class to make it easier to call) into the clone folder
-   - mod `collect.sh` to use the embedded version (i.e.: re-build mruby w/ the bench code embedded into the mruby binary)                   
-   - re-build and re-run the benchmarks  
-
 ## Linux
 
 ### Mint 17.3 KDE
@@ -62,4 +55,3 @@ For this particular benchmark:
 * Crystal wins this round; it seems a good balance of high speed, small built file size, and fairly Ruby-like syntax.
 
 Of course, the 'winners' might vary as you test on other systems, scale up the amount of source code, and include other types of algorithms being benchmarked.
-  
