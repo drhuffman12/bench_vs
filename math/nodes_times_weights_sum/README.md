@@ -54,4 +54,4 @@ For this particular benchmark:
 
 * Crystal wins this round; it seems a good balance of high speed, small built file size, and fairly Ruby-like syntax.
 
-Of course, the 'winners' might vary as you test on other systems, scale up the amount of source code, and include other types of algorithms being benchmarked.
+Of course, the 'winners' might vary as you test on other systems, translate to other programming languages, apply various optimizations, scale up the amount of source code, and include other types of algorithms being benchmarked.
