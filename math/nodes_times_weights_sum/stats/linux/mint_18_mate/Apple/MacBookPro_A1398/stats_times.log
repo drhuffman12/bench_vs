@@ -33,11 +33,11 @@ Swap:         16260           0       16260
 stats_previous
 
 
-Warning! PATH is not properly set up, '/home/dhuffman/.rvm/gems/ruby-2.3.1@nodes_times_weights_sum/bin' is not at first place,
+Warning! PATH is not properly set up, '~/.rvm/gems/ruby-2.3.1@nodes_times_weights_sum/bin' is not at first place,
          usually this is caused by shell initialization files - check them for 'PATH=...' entries,
          it might also help to re-add RVM to your dotfiles: 'rvm get stable --auto-dotfiles',
          to fix temporarily in this shell session run: 'rvm use ruby-2.3.1@nodes_times_weights_sum'.
-Using /home/dhuffman/.rvm/gems/ruby-2.3.1
+Using ~/.rvm/gems/ruby-2.3.1
 ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
 
 real	0m0.212s
@@ -58,7 +58,7 @@ real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
 
-Using /home/dhuffman/.rvm/gems/mruby-1.2.0
+Using ~/.rvm/gems/mruby-1.2.0
 Warning! Executable 'gem' missing, something went wrong with this ruby installation!
 mruby 1.2.0 (2015-11-17) 
 
@@ -76,14 +76,14 @@ sys	0m0.128s
 stats_latest
 
 
-Using /home/dhuffman/.rvm/gems/ruby-head
+Using ~/.rvm/gems/ruby-head
 ruby 2.4.0dev (2016-07-01 trunk 55556) [x86_64-linux]
 
 real	0m0.196s
 user	0m0.188s
 sys	0m0.004s
 
-Using /home/dhuffman/.rvm/gems/jruby-9.1.2.0
+Using ~/.rvm/gems/jruby-9.1.2.0
 jruby 9.1.2.0 (2.3.0) 2016-05-26 7357c8f Java HotSpot(TM) 64-Bit Server VM 9-ea+126 on 9-ea+126 +jit [linux-x86_64]
 LoadError: library `java' could not be loaded: java.lang.reflect.InaccessibleObjectException: Cannot make a non-public member of class java.lang.reflect.AccessibleObject accessible
 LoadError: library `java' could not be loaded: java.lang.reflect.InaccessibleObjectException: Cannot make a non-public member of class java.lang.reflect.AccessibleObject accessible
@@ -95,7 +95,7 @@ real	0m0.640s
 user	0m1.368s
 sys	0m0.052s
 
-Using /home/dhuffman/.rvm/gems/mruby-head
+Using ~/.rvm/gems/mruby-head
 Warning! Executable 'gem' missing, something went wrong with this ruby installation!
 mruby 1.2.0 (2015-11-17) 
 
