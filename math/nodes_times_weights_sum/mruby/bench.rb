@@ -39,7 +39,7 @@ def i_am_running
   return (f_rb_name == f_mrb_name && f_rb_ext == 'rb' && f_mrb_ext == 'mrb')
 end
 if i_am_running
-  qty = ARGV[0].to_i
+  qty = (ARGV && ARGV.size > 0 ? ARGV[0] : 0).to_i
   Bench.run(qty)
 end
 
