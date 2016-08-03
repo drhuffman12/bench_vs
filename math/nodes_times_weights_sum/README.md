@@ -50,7 +50,7 @@ For this particular benchmark:
 * Size of 'built' files, compared to the source files, which are about 1 1/4 KB:
   - MRuby 'mrb' file is the smallest at about 1 1/4 Kb, practically the same size as the source code. (The 'mrb' still needs the 'mruby' binary to run it, but that's probably ok if you have multiple 'mrb' files to run via the same mruby 'bin'.)
   - Crystal is the smallest completely self-containted binary at about 1/2 MB
-  - MRuby 'bin' (self-containted w/ the 'bench' file 'classified and embedded') is largest at about 1 1/2 MB
+  - MRuby 'bin' (self-containted w/ the 'bench' file 'classified and embedded') is largest at about 1 1/2 MB (However, I kept getting `Segmentation fault` errors when I tried running it that way, i.e.:`mruby/bench -e "Bench.run(1000)"`. I'd need to look into that more later.)
 
 * Crystal wins this round; it seems a good balance of high speed, small built file size, and fairly Ruby-like syntax.
 
