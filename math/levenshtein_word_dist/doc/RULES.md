@@ -30,6 +30,7 @@ CoderNight September 2016
     Here's a file to run against if you want to work on this offline instead of using their editor.
 
     Sample input file
+    https://dl.dropboxusercontent.com/u/6768419/input
 
     I'd like to get submissions by Sept 4 in order to give people time to look and prepare feedback. As usual, email me (james.deville at gmail.com) or pm me on Slack to submit
 
