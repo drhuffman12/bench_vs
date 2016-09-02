@@ -1,3 +1,6 @@
 [submodule "languages/mruby/head/mruby"]
 	path = languages/mruby/head/mruby
 	url = https://github.com/mruby/mruby.git
+[submodule "math/levenshtein_word_dist/ruby"]
+	path = math/levenshtein_word_dist/ruby
+	url = https://github.com/drhuffman12/bench_vs-math-levenshtein_word_dist-ruby.git
