@@ -136,7 +136,64 @@ echo "Crystal 0.18.7 (release)"
 
 crenv shell 0.18.7
 crystal version
-crystal build ./crystal/bench.cr --release
+crystal build ./crystal/bench.cr --release # --emit obj --prelude=empty --release
+cp bench ./crystal/bench_0.18.7
+mv bench ./crystal/bench
+for VARIABLE in 1 2 3 4 5
+do
+./crystal/bench $QTY >> $LOG_FILE.csv
+done
+time ./crystal/bench $QTY >> $LOG_FILE.times.log 2>&1
+
+echo
+echo "Crystal 0.19.0 (release)"
+
+crenv shell 0.19.0
+crystal version
+crystal build ./crystal/bench.cr --release # --emit obj --prelude=empty --release
+cp bench ./crystal/bench_0.19.0
+mv bench ./crystal/bench
+for VARIABLE in 1 2 3 4 5
+do
+./crystal/bench $QTY >> $LOG_FILE.csv
+done
+time ./crystal/bench $QTY >> $LOG_FILE.times.log 2>&1
+
+echo
+echo "Crystal 0.19.4 (release)"
+
+crenv shell 0.19.4
+crystal version
+crystal build ./crystal/bench.cr --release # --emit obj --prelude=empty --release
+cp bench ./crystal/bench_0.19.4
+mv bench ./crystal/bench
+for VARIABLE in 1 2 3 4 5
+do
+./crystal/bench $QTY >> $LOG_FILE.csv
+done
+time ./crystal/bench $QTY >> $LOG_FILE.times.log 2>&1
+
+echo
+echo "Crystal 0.20.0 (release)"
+
+crenv shell 0.20.0
+crystal version
+crystal build ./crystal/bench.cr --release # --emit obj --prelude=empty --release
+cp bench ./crystal/bench_0.20.0
+mv bench ./crystal/bench
+for VARIABLE in 1 2 3 4 5
+do
+./crystal/bench $QTY >> $LOG_FILE.csv
+done
+time ./crystal/bench $QTY >> $LOG_FILE.times.log 2>&1
+
+echo
+echo "Crystal 0.20.1 (release)"
+
+crenv shell 0.20.1
+crystal version
+crystal build ./crystal/bench.cr --release # --emit obj --prelude=empty --release
+cp bench ./crystal/bench_0.20.1
 mv bench ./crystal/bench
 for VARIABLE in 1 2 3 4 5
 do
