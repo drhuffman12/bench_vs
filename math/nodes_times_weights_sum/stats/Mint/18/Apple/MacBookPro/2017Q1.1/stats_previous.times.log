@@ -1,0 +1,6 @@
+misc times (TODO: merge w/ csv file)
+LoadError: load error: jruby/java/java_ext/java.lang -- java.lang.reflect.InaccessibleObjectException: Cannot make a non-public member of class java.lang.reflect.AccessibleObject accessible
+  require at org/jruby/RubyKernel.java:1040
+   (root) at file:/home/dhuffman/.rvm/rubies/jruby-1.7.25/lib/jruby.jar!/jruby/java/java_ext.rb:3
+  require at org/jruby/RubyKernel.java:1040
+   (root) at file:/home/dhuffman/.rvm/rubies/jruby-1.7.25/lib/jruby.jar!/jruby/java.rb:1

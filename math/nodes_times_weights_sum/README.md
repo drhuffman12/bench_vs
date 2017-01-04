@@ -1,5 +1,12 @@
 # This benchmark compares a neural-network-like algorithm. 
 
+## USAGE:
+
+```sh
+./setup.sh
+./run.sh <stats>/<os>/<osver>/<brand>/<model>
+```
+
 For Neural Networks, you typically take use various propogation functions to a 1D array of inputs and a 2D array of weights into a 1D array of outputs.
 
 Here we are just multiplying the inputs acros the weights and summing up the partial results to get the outputs with the following pseudo-code:

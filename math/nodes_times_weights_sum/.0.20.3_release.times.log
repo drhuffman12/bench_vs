@@ -1,0 +1,3 @@
+command format: ruby /home/dhuffman/_tmp_/bench_vs/math/nodes_times_weights_sum/crystal/bench.cr [<qty>] [-v]
+  <qty> : array width (lenght assumed to be the same)
+  -v    : show your work
