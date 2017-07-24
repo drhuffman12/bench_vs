@@ -43,6 +43,8 @@ rvm install jruby-9.1.2.0
 rvm install mruby-head
 crenv install 0.18.7
 
+crenv install 0.23.1
+
 rm -R tmp/mruby
 mkdir -p tmp/mruby
 cp -R ../../languages/mruby/head/mruby/ tmp
