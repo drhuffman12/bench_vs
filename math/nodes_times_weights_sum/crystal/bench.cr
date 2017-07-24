@@ -38,7 +38,7 @@ class Bench
   end
 end
 
-if PROGRAM_NAME == $0
+if PROGRAM_NAME == File.basename(__FILE__) # $0
   qty = (ARGV && ARGV.size > 0 ? ARGV[0] : 0).to_i
   Bench.run(qty)
 end
