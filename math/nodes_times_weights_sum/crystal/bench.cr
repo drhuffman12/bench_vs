@@ -43,11 +43,11 @@ if PROGRAM_NAME == $0 # File.basename(__FILE__)
   Bench.run(qty)
 end
 
-puts "__FILE__:"
-puts __FILE__
+# puts "__FILE__:"
+# puts __FILE__
 
-puts "$0:"
-puts $0
+# puts "$0:"
+# puts $0
 
-puts "PROGRAM_NAME:"
-puts PROGRAM_NAME
+# puts "PROGRAM_NAME:"
+# puts PROGRAM_NAME
