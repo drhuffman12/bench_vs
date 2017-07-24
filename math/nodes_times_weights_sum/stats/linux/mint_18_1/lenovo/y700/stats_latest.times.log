@@ -1,0 +1,6 @@
+misc times (TODO: merge w/ csv file)
+0.166679765,ruby,2.4.0
+0.411,jruby,2.3.0
+2.339762,mruby,1.3.0
+0.026508,Crystal,0.23.0
+collect.sh: line 173: mruby/bench: No such file or directory
