@@ -1,0 +1,117 @@
+
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                8
+On-line CPU(s) list:   0-7
+Thread(s) per core:    2
+Core(s) per socket:    4
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 94
+Model name:            Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
+Stepping:              3
+CPU MHz:               2235.009
+CPU max MHz:           3500.0000
+CPU min MHz:           800.0000
+BogoMIPS:              5184.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              6144K
+NUMA node0 CPU(s):     0-7
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp
+
+              total        used        free      shared  buff/cache   available
+Mem:          15901        2651        6872        1106        6377       11516
+Swap:             0           0           0
+
+
+
+Warning! PATH is not properly set up, '/home/drhuffman/.rvm/gems/ruby-2.3.1@nodes_times_weights_sum/bin' is not at first place.
+         Usually this is caused by shell initialization files. Search for 'PATH=...' entries.
+         You can also re-add RVM to your profile by running: 'rvm get stable --auto-dotfiles'.
+         To fix it temporarily in this shell session run: 'rvm use ruby-2.3.1@nodes_times_weights_sum'.
+         To ignore this error add rvm_silence_path_mismatch_check_flag=1 to your ~/.rvmrc file.
+Using /home/drhuffman/.rvm/gems/ruby-2.4.0
+ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+
+real	0m0.225s
+user	0m0.212s
+sys	0m0.012s
+
+Using /home/drhuffman/.rvm/gems/jruby-1.7.25
+jruby 1.7.25 (1.9.3p551) 2016-04-13 867cb81 on OpenJDK 64-Bit Server VM 1.8.0_131-8u131-b11-0ubuntu1.16.04.2-b11 +jit [linux-amd64]
+
+real	0m1.331s
+user	0m4.152s
+sys	0m0.188s
+
+Using /home/drhuffman/.rvm/gems/mruby-1.2.0
+Warning! Executable 'gem' missing, something went wrong with this ruby installation!
+mruby 1.2.0 (2015-11-17) 
+
+real	0m0.008s
+user	0m0.008s
+sys	0m0.000s
+
+Crystal 0.23.0 (non-release)
+Crystal 0.23.0 [3c3d3e2] (2017-06-28) LLVM 3.8.1
+
+real	0m0.860s
+user	0m0.848s
+sys	0m0.112s
+
+
+
+Using /home/drhuffman/.rvm/gems/ruby-head
+ruby 2.4.0dev (2016-10-02 trunk 56320) [x86_64-linux]
+
+real	0m0.188s
+user	0m0.184s
+sys	0m0.004s
+
+Using /home/drhuffman/.rvm/gems/jruby-9.1.2.0
+jruby 9.1.2.0 (2.3.0) 2016-05-26 7357c8f OpenJDK 64-Bit Server VM 25.131-b11 on 1.8.0_131-8u131-b11-0ubuntu1.16.04.2-b11 +jit [linux-x86_64]
+
+real	0m1.824s
+user	0m5.668s
+sys	0m0.176s
+
+mrb
+Using /home/drhuffman/.rvm/gems/mruby-head
+Warning! Executable 'gem' missing, something went wrong with this ruby installation!
+mruby 1.3.0 (2017-7-4) 
+1.595206,mruby,1.3.0
+
+real	0m1.492s
+user	0m1.476s
+sys	0m0.012s
+
+Crystal 0.23.0 (release)
+Crystal 0.23.0 [3c3d3e2] (2017-06-28) LLVM 3.8.1
+
+real	0m0.029s
+user	0m0.028s
+sys	0m0.000s
+
+minirake
+Using /home/drhuffman/.rvm/gems/ruby-2.3.1
+collect.sh: line 159: ./minirake: No such file or directory
+cp: cannot stat 'tmp/mruby/bin/mruby': No such file or directory
+mv: cannot stat 'mruby/mruby': No such file or directory
+collect.sh: line 167: mruby/bench: No such file or directory
+collect.sh: line 168: mruby/bench: No such file or directory
+collect.sh: line 171: mruby/bench: No such file or directory
+collect.sh: line 171: mruby/bench: No such file or directory
+collect.sh: line 171: mruby/bench: No such file or directory
+collect.sh: line 171: mruby/bench: No such file or directory
+collect.sh: line 171: mruby/bench: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+
