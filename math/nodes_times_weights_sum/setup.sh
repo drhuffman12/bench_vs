@@ -32,7 +32,7 @@ rvm cleanup all
 git clone https://github.com/pine/crenv-update.git "$(crenv root)/plugins/crenv-update"
 crenv update
 
-rvm install ruby-2.3.1
+rvm install ruby-2.4.0
 rvm install jruby-1.7.25
 rvm install mruby
 crenv install 0.18.6
@@ -43,7 +43,8 @@ rvm install jruby-9.1.2.0
 rvm install mruby-head
 crenv install 0.18.7
 
-crenv install 0.23.1
+crenv install 0.23.0
+# crenv install 0.23.1
 
 rm -R tmp/mruby
 mkdir -p tmp/mruby

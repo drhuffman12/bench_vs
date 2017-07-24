@@ -47,7 +47,7 @@ echo "duration,language,version" > $LOG_FILE.csv
 echo "misc times (TODO: merge w/ csv file)" > $LOG_FILE.times.log 2>&1
 
 echo
-rvm use ruby-2.3.1
+rvm use ruby-2.4.0
 ruby --version
 for VARIABLE in 1 2 3 4 5
 do
@@ -76,8 +76,8 @@ time ruby mruby/bench.rb $QTY >> $LOG_FILE.times.log 2>&1
 echo
 # echo "Crystal 0.18.7 (non-release)"
 # crenv local 0.18.7
-echo "Crystal 0.23.1 (non-release)"
-crenv local 0.23.1
+echo "Crystal 0.23.0 (non-release)"
+crenv local 0.23.0
 crystal version
 for VARIABLE in 1 2 3 4 5
 do
@@ -136,8 +136,8 @@ time ruby -b mruby/bench.mrb $QTY >> $LOG_FILE.times.log 2>&1
 echo
 # echo "Crystal 0.18.7 (release)"
 # crenv shell 0.18.7
-echo "Crystal 0.23.1 (release)"
-crenv shell 0.23.1
+echo "Crystal 0.23.0 (release)"
+crenv shell 0.23.0
 crystal version
 crystal build ./crystal/bench.cr --release
 mv bench ./crystal/bench
