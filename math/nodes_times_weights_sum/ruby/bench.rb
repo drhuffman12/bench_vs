@@ -12,7 +12,10 @@ class Bench
       n1 = Array.new(q) { rand() }
       w1 = Array.new(q) { Array.new(q) { rand() } }
       n2 = Array.new(q,0)
-      w1.each_with_index {|wrow, i| wrow.each_with_index {|wcell, j| n2[j] += wcell*n1[i] }}
+      # w1.each_with_index {|wrow, i| wrow.each_with_index {|wcell, j| n2[j] += wcell*n1[i] }}
+      w1_row_cnt = w1.size
+      w1_col_cnt = w1.first.size
+      (0...w1_row_cnt).each { |row| (0...w1_col_cnt).each { |col| n2[col] += (w1[row][col])*n1[row] } }
       b = Time.now
       d = b-a
       puts "#{d},#{RUBY_ENGINE},#{RUBY_VERSION}" # ,#{RUBY_PATCHLEVEL},#{RUBY_PLATFORM}
