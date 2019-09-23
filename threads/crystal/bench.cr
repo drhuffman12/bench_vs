@@ -21,9 +21,18 @@ require "benchmark"
     #   threads.map(&:join)
     # end
 
-    x.report("fibers") do
+    x.report("fibers (any thread)") do
       qty.times do |i|
-        spawn do
+        spawn(same_thread: false) do
+          block.call(i)
+        end
+      end
+      Fiber.yield
+    end
+
+    x.report("fibers (same thread)") do
+      qty.times do |i|
+        spawn(same_thread: true) do
           block.call(i)
         end
       end
