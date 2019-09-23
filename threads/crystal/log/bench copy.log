@@ -1,0 +1,37 @@
+# Crystal 0.30.0
+
+- OLD
+             user     system      total        real
+normal   0.240000   0.030000   0.270000 (  0.214448)
+fibers   0.530000   0.040000   0.570000 (  0.466792)
+
+# Crystal 0.31.0
+
+                           user     system      total        real
+normal                 0.261927   0.066352   0.328279 (  0.225334)
+fibers (any thread)    0.513291   0.092184   0.605475 (  0.506578)
+fibers (same thread)   0.197733   0.102447   0.300180 (  0.295049)
+
+- CRYSTAL_WORKERS=2
+                           user     system      total        real
+normal                 0.371073   0.065622   0.436695 (  0.338522)
+fibers (any thread)    0.921858   0.109281   1.031139 (  0.563994)
+fibers (same thread)   0.889373   0.064682   0.954055 (  0.727260)
+
+- CRYSTAL_WORKERS=4
+                           user     system      total        real
+normal                 0.286264   0.069647   0.355911 (  0.242805)
+fibers (any thread)    0.799191   0.227857   1.027048 (  0.460811)
+fibers (same thread)   0.805357   0.138727   0.944084 (  0.777524)
+
+- CRYSTAL_WORKERS=6
+                           user     system      total        real
+normal                 0.546300   0.125175   0.671475 (  0.552200)
+fibers (any thread)    1.053617   0.254031   1.307648 (  0.484375)
+fibers (same thread)   0.986508   0.173555   1.160063 (  0.930346)
+
+- CRYSTAL_WORKERS=8
+                           user     system      total        real
+normal                 0.432653   0.126308   0.558961 (  0.389789)
+fibers (any thread)    0.694946   0.171753   0.866699 (  0.240542)
+fibers (same thread)   0.565229   0.098326   0.663555 (  0.505214)
