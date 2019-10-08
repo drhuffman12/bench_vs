@@ -12,32 +12,12 @@ touch log/bench.log
 
 echo 2>&1 | tee -a log/bench.log
 echo "# Crystal 0.31.0" 2>&1 | tee -a log/bench.log
-echo 2>&1 | tee -a log/bench.log
-echo "- CRYSTAL_WORKERS=1" 
-CRYSTAL_WORKERS=1 ./bench 2>&1 | tee -a  log/bench.log
-echo 2>&1 | tee -a log/bench.log
-echo "- CRYSTAL_WORKERS=2" 2>&1 | tee -a  log/bench.log
-CRYSTAL_WORKERS=2 ./bench 2>&1 | tee -a  log/bench.log
-echo 2>&1 | tee -a log/bench.log
-echo "- CRYSTAL_WORKERS=4" 2>&1 | tee -a  log/bench.log
-CRYSTAL_WORKERS=4 ./bench 2>&1 | tee -a  log/bench.log
-echo 2>&1 | tee -a log/bench.log
-echo "- CRYSTAL_WORKERS=6" 2>&1 | tee -a  log/bench.log
-CRYSTAL_WORKERS=6 ./bench 2>&1 | tee -a  log/bench.log
-echo 2>&1 | tee -a log/bench.log
-echo "- CRYSTAL_WORKERS=8" 2>&1 | tee -a  log/bench.log
-CRYSTAL_WORKERS=8 ./bench 2>&1 | tee -a  log/bench.log
-echo 2>&1 | tee -a log/bench.log
-echo "- CRYSTAL_WORKERS=10" 2>&1 | tee -a  log/bench.log
-CRYSTAL_WORKERS=10 ./bench 2>&1 | tee -a  log/bench.log
-echo 2>&1 | tee -a log/bench.log
-echo "- CRYSTAL_WORKERS=12" 2>&1 | tee -a  log/bench.log
-CRYSTAL_WORKERS=12 ./bench 2>&1 | tee -a  log/bench.log
-echo 2>&1 | tee -a log/bench.log
-echo "- CRYSTAL_WORKERS=14" 2>&1 | tee -a  log/bench.log
-CRYSTAL_WORKERS=14 ./bench 2>&1 | tee -a  log/bench.log
-echo 2>&1 | tee -a log/bench.log
-echo "- CRYSTAL_WORKERS=16" 2>&1 | tee -a  log/bench.log
-CRYSTAL_WORKERS=16 ./bench 2>&1 | tee -a  log/bench.log
+
+for i in {1..32}
+do
+  echo 2>&1 | tee -a log/bench.log
+  echo "- CRYSTAL_WORKERS=${i}" 2>&1 | tee -a log/bench.log
+  CRYSTAL_WORKERS=$i ./bench 2>&1 | tee -a  log/bench.log
+done
 
 cat log/bench.log

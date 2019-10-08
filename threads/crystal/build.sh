@@ -4,4 +4,4 @@
 # TODO
 
 # build for Crystal v0.31.0
-crystal build -Dpreview_mt --release bench.cr
+time crystal build -Dpreview_mt --release bench.cr
