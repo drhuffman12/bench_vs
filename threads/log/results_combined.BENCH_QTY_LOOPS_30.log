@@ -1,0 +1,429 @@
+Running in: '/home/drhuffman/_tmp_/github/drhuffman12/bench_vs/threads'
+
+Running in: '/home/drhuffman/_tmp_/github/drhuffman12/bench_vs/threads/ruby'
+
+
+# array_360:
+       user     system      total        real
+normal ...
+normal  0.000416   0.000000   0.000416 (  0.000413)
+threads ...
+threads  0.005633   0.000000   0.005633 (  0.004080)
+processes ...
+processes  0.002545   0.016560   0.098704 (  0.023021)
+done for qty: 30
+
+# fib:
+       user     system      total        real
+normal ...
+normal  0.337061   0.000000   0.337061 (  0.337260)
+threads ...
+threads  0.361172   0.000000   0.361172 (  0.359638)
+processes ...
+processes  0.007774   0.011408   0.619480 (  0.193726)
+done for qty: 30
+
+Running in: '/home/drhuffman/_tmp_/github/drhuffman12/bench_vs/threads/crystal'
+
+
+# Crystal 0.31.0
+
+- CRYSTAL_WORKERS=1
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000161   0.000000   0.000161 (  0.000157)
+fibers (any thread)    0.000382   0.000000   0.000382 (  0.000381)
+fibers (same thread)   0.000180   0.000000   0.000180 (  0.000180)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.119868   0.060269   0.180137 (  0.180166)
+fibers (any thread)    0.126797   0.037028   0.163825 (  0.163821)
+fibers (same thread)   0.105583   0.059113   0.164696 (  0.164698)
+done for qty: 30
+
+- CRYSTAL_WORKERS=2
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000000   0.000217   0.000217 (  0.000216)
+fibers (any thread)    0.000000   0.000680   0.000680 (  0.000399)
+fibers (same thread)   0.000000   0.000324   0.000324 (  0.000324)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.180909   0.050499   0.231408 (  0.152094)
+fibers (any thread)    0.202375   0.050462   0.252837 (  0.123882)
+fibers (same thread)   0.155268   0.048710   0.203978 (  0.134357)
+done for qty: 30
+
+- CRYSTAL_WORKERS=4
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000170   0.000000   0.000170 (  0.000169)
+fibers (any thread)    0.001644   0.000000   0.001644 (  0.000565)
+fibers (same thread)   0.000390   0.000000   0.000390 (  0.000391)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.185774   0.065603   0.251377 (  0.156554)
+fibers (any thread)    0.268697   0.065144   0.333841 (  0.125250)
+fibers (same thread)   0.173686   0.069377   0.243063 (  0.149731)
+done for qty: 30
+
+- CRYSTAL_WORKERS=6
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000177   0.000000   0.000177 (  0.000177)
+fibers (any thread)    0.002728   0.000000   0.002728 (  0.000716)
+fibers (same thread)   0.000291   0.000000   0.000291 (  0.000291)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.186997   0.087242   0.274239 (  0.165289)
+fibers (any thread)    0.378730   0.094422   0.473152 (  0.155112)
+fibers (same thread)   0.215530   0.046418   0.261948 (  0.156410)
+done for qty: 30
+
+- CRYSTAL_WORKERS=8
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000194   0.000000   0.000194 (  0.000193)
+fibers (any thread)    0.000000   0.002909   0.002909 (  0.000593)
+fibers (same thread)   0.000783   0.000770   0.001553 (  0.000440)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.237124   0.063322   0.300446 (  0.173896)
+fibers (any thread)    0.221094   0.068991   0.290085 (  0.069985)
+fibers (same thread)   0.438955   0.117217   0.556172 (  0.233835)
+done for qty: 30
+
+- CRYSTAL_WORKERS=10
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000178   0.000000   0.000178 (  0.000176)
+fibers (any thread)    0.000000   0.003737   0.003737 (  0.000630)
+fibers (same thread)   0.000718   0.000718   0.001436 (  0.000400)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.216212   0.054291   0.270503 (  0.173999)
+fibers (any thread)    0.390050   0.164492   0.554542 (  0.169041)
+fibers (same thread)   0.174605   0.067710   0.242315 (  0.146700)
+done for qty: 30
+
+- CRYSTAL_WORKERS=12
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000179   0.000000   0.000179 (  0.000178)
+fibers (any thread)    0.003047   0.000000   0.003047 (  0.000562)
+fibers (same thread)   0.000000   0.002157   0.002157 (  0.000509)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.197666   0.093277   0.290943 (  0.175448)
+fibers (any thread)    0.355261   0.102526   0.457787 (  0.140103)
+fibers (same thread)   0.183120   0.079137   0.262257 (  0.152271)
+done for qty: 30
+
+- CRYSTAL_WORKERS=14
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000000   0.000183   0.000183 (  0.000181)
+fibers (any thread)    0.000000   0.005193   0.005193 (  0.000945)
+fibers (same thread)   0.000000   0.000296   0.000296 (  0.000296)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.211446   0.068851   0.280297 (  0.159654)
+fibers (any thread)    0.218288   0.062510   0.280798 (  0.068306)
+fibers (same thread)   0.368270   0.149359   0.517629 (  0.220378)
+done for qty: 30
+
+- CRYSTAL_WORKERS=16
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000180   0.000000   0.000180 (  0.000179)
+fibers (any thread)    0.001576   0.000000   0.001576 (  0.000360)
+fibers (same thread)   0.003544   0.000000   0.003544 (  0.000656)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.216010   0.086781   0.302791 (  0.164155)
+fibers (any thread)    0.004360   0.007155   0.011515 (  0.002535)
+fibers (same thread)   0.638619   0.258870   0.897489 (  0.316213)
+done for qty: 30
+
+# Crystal 0.31.0
+
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000161   0.000000   0.000161 (  0.000157)
+fibers (any thread)    0.000382   0.000000   0.000382 (  0.000381)
+fibers (same thread)   0.000180   0.000000   0.000180 (  0.000180)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.119868   0.060269   0.180137 (  0.180166)
+fibers (any thread)    0.126797   0.037028   0.163825 (  0.163821)
+fibers (same thread)   0.105583   0.059113   0.164696 (  0.164698)
+done for qty: 30
+
+- CRYSTAL_WORKERS=2
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000000   0.000217   0.000217 (  0.000216)
+fibers (any thread)    0.000000   0.000680   0.000680 (  0.000399)
+fibers (same thread)   0.000000   0.000324   0.000324 (  0.000324)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.180909   0.050499   0.231408 (  0.152094)
+fibers (any thread)    0.202375   0.050462   0.252837 (  0.123882)
+fibers (same thread)   0.155268   0.048710   0.203978 (  0.134357)
+done for qty: 30
+
+- CRYSTAL_WORKERS=4
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000170   0.000000   0.000170 (  0.000169)
+fibers (any thread)    0.001644   0.000000   0.001644 (  0.000565)
+fibers (same thread)   0.000390   0.000000   0.000390 (  0.000391)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.185774   0.065603   0.251377 (  0.156554)
+fibers (any thread)    0.268697   0.065144   0.333841 (  0.125250)
+fibers (same thread)   0.173686   0.069377   0.243063 (  0.149731)
+done for qty: 30
+
+- CRYSTAL_WORKERS=6
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000177   0.000000   0.000177 (  0.000177)
+fibers (any thread)    0.002728   0.000000   0.002728 (  0.000716)
+fibers (same thread)   0.000291   0.000000   0.000291 (  0.000291)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.186997   0.087242   0.274239 (  0.165289)
+fibers (any thread)    0.378730   0.094422   0.473152 (  0.155112)
+fibers (same thread)   0.215530   0.046418   0.261948 (  0.156410)
+done for qty: 30
+
+- CRYSTAL_WORKERS=8
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000194   0.000000   0.000194 (  0.000193)
+fibers (any thread)    0.000000   0.002909   0.002909 (  0.000593)
+fibers (same thread)   0.000783   0.000770   0.001553 (  0.000440)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.237124   0.063322   0.300446 (  0.173896)
+fibers (any thread)    0.221094   0.068991   0.290085 (  0.069985)
+fibers (same thread)   0.438955   0.117217   0.556172 (  0.233835)
+done for qty: 30
+
+- CRYSTAL_WORKERS=10
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000178   0.000000   0.000178 (  0.000176)
+fibers (any thread)    0.000000   0.003737   0.003737 (  0.000630)
+fibers (same thread)   0.000718   0.000718   0.001436 (  0.000400)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.216212   0.054291   0.270503 (  0.173999)
+fibers (any thread)    0.390050   0.164492   0.554542 (  0.169041)
+fibers (same thread)   0.174605   0.067710   0.242315 (  0.146700)
+done for qty: 30
+
+- CRYSTAL_WORKERS=12
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000179   0.000000   0.000179 (  0.000178)
+fibers (any thread)    0.003047   0.000000   0.003047 (  0.000562)
+fibers (same thread)   0.000000   0.002157   0.002157 (  0.000509)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.197666   0.093277   0.290943 (  0.175448)
+fibers (any thread)    0.355261   0.102526   0.457787 (  0.140103)
+fibers (same thread)   0.183120   0.079137   0.262257 (  0.152271)
+done for qty: 30
+
+- CRYSTAL_WORKERS=14
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000000   0.000183   0.000183 (  0.000181)
+fibers (any thread)    0.000000   0.005193   0.005193 (  0.000945)
+fibers (same thread)   0.000000   0.000296   0.000296 (  0.000296)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.211446   0.068851   0.280297 (  0.159654)
+fibers (any thread)    0.218288   0.062510   0.280798 (  0.068306)
+fibers (same thread)   0.368270   0.149359   0.517629 (  0.220378)
+done for qty: 30
+
+- CRYSTAL_WORKERS=16
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000180   0.000000   0.000180 (  0.000179)
+fibers (any thread)    0.001576   0.000000   0.001576 (  0.000360)
+fibers (same thread)   0.003544   0.000000   0.003544 (  0.000656)
+done for qty: 30
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.216010   0.086781   0.302791 (  0.164155)
+fibers (any thread)    0.004360   0.007155   0.011515 (  0.002535)
+fibers (same thread)   0.638619   0.258870   0.897489 (  0.316213)
+done for qty: 30
+
+Done
+

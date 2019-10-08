@@ -1,0 +1,429 @@
+Running in: '/home/drhuffman/_tmp_/github/drhuffman12/bench_vs/threads'
+
+Running in: '/home/drhuffman/_tmp_/github/drhuffman12/bench_vs/threads/ruby'
+
+
+# array_360:
+       user     system      total        real
+normal ...
+normal  0.001019   0.000093   0.001112 (  0.001105)
+threads ...
+threads  0.006840   0.000253   0.007093 (  0.005212)
+processes ...
+processes  0.009188   0.039710   0.470643 (  0.070871)
+done for qty: 40
+
+# fib:
+       user     system      total        real
+normal ...
+normal 39.435340   0.015956  39.451296 ( 39.458387)
+threads ...
+threads 41.829406   0.012003  41.841409 ( 41.826199)
+processes ...
+processes  0.001844   0.036019  55.602586 ( 17.988147)
+done for qty: 40
+
+Running in: '/home/drhuffman/_tmp_/github/drhuffman12/bench_vs/threads/crystal'
+
+
+# Crystal 0.31.0
+
+- CRYSTAL_WORKERS=1
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000302   0.000000   0.000302 (  0.000298)
+fibers (any thread)    0.000000   0.001158   0.001158 (  0.000722)
+fibers (same thread)   0.000000   0.000236   0.000236 (  0.000236)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 13.283347   0.208925   13.492272 (  13.117023)
+fibers (any thread)    13.522064   0.203243   13.725307 (  13.335025)
+fibers (same thread)   13.779778   0.110759   13.890537 (  13.497888)
+done for qty: 40
+
+- CRYSTAL_WORKERS=2
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000000   0.000513   0.000513 (  0.000308)
+fibers (any thread)    0.000000   0.002594   0.002594 (  0.001269)
+fibers (same thread)   0.000000   0.000393   0.000393 (  0.000393)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 24.122520   5.408983   29.531503 (  19.768751)
+fibers (any thread)    27.407515   7.190839   34.598354 (  17.431719)
+fibers (same thread)   23.688590   4.665404   28.353994 (  18.522442)
+done for qty: 40
+
+- CRYSTAL_WORKERS=4
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000121   0.000241   0.000362 (  0.000361)
+fibers (any thread)    0.000931   0.001861   0.002792 (  0.000812)
+fibers (same thread)   0.000651   0.001301   0.001952 (  0.000889)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 22.784261   6.574292   29.358553 (  18.114187)
+fibers (any thread)    33.433906   9.350115   42.784021 (  16.228090)
+fibers (same thread)   23.150374   6.554409   29.704783 (  18.187247)
+done for qty: 40
+
+- CRYSTAL_WORKERS=6
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000000   0.000333   0.000333 (  0.000332)
+fibers (any thread)    0.000000   0.004897   0.004897 (  0.001099)
+fibers (same thread)   0.000000   0.001633   0.001633 (  0.000769)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 20.162089   7.059436   27.221525 (  17.082284)
+fibers (any thread)    28.079444   9.137406   37.216850 (  10.397786)
+fibers (same thread)   31.026702   9.286897   40.313599 (  20.946313)
+done for qty: 40
+
+- CRYSTAL_WORKERS=8
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000000   0.000333   0.000333 (  0.000318)
+fibers (any thread)    0.000000   0.006951   0.006951 (  0.001144)
+fibers (same thread)   0.002024   0.000000   0.002024 (  0.000772)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 21.236216   8.153825   29.390041 (  17.656355)
+fibers (any thread)    37.560535   14.735461   52.295996 (  16.749520)
+fibers (same thread)   22.726031   7.063006   29.789037 (  17.832927)
+done for qty: 40
+
+- CRYSTAL_WORKERS=10
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000219   0.000110   0.000329 (  0.000327)
+fibers (any thread)    0.005010   0.002505   0.007515 (  0.001443)
+fibers (same thread)   0.001342   0.000671   0.002013 (  0.000775)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 22.282013   8.540219   30.822232 (  18.107109)
+fibers (any thread)    39.637056   14.880420   54.517476 (  17.448484)
+fibers (same thread)   23.189882   8.769265   31.959147 (  18.571599)
+done for qty: 40
+
+- CRYSTAL_WORKERS=12
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000338   0.000000   0.000338 (  0.000337)
+fibers (any thread)    0.007433   0.000000   0.007433 (  0.001166)
+fibers (same thread)   0.003527   0.000000   0.003527 (  0.000926)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 23.951559   9.552481   33.504040 (  19.465440)
+fibers (any thread)    6.295921   3.326947   9.622868 (  2.230606)
+fibers (same thread)   67.732538   26.380275   94.112813 (  34.456016)
+done for qty: 40
+
+- CRYSTAL_WORKERS=14
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000320   0.000000   0.000320 (  0.000319)
+fibers (any thread)    0.004942   0.000000   0.004942 (  0.000931)
+fibers (same thread)   0.007328   0.000000   0.007328 (  0.002083)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 24.765403   10.687092   35.452495 (  19.508365)
+fibers (any thread)    3.042647   1.634095   4.676742 (  1.098057)
+fibers (same thread)   74.657646   32.011206   106.668852 (  38.773548)
+done for qty: 40
+
+- CRYSTAL_WORKERS=16
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000000   0.000334   0.000334 (  0.000332)
+fibers (any thread)    0.000000   0.005551   0.005551 (  0.000869)
+fibers (same thread)   0.000000   0.007551   0.007551 (  0.001478)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 24.719977   12.859340   37.579317 (  20.060682)
+fibers (any thread)    41.841061   19.935772   61.776833 (  19.744548)
+fibers (same thread)   26.738046   13.120669   39.858715 (  21.206222)
+done for qty: 40
+
+# Crystal 0.31.0
+
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000302   0.000000   0.000302 (  0.000298)
+fibers (any thread)    0.000000   0.001158   0.001158 (  0.000722)
+fibers (same thread)   0.000000   0.000236   0.000236 (  0.000236)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 13.283347   0.208925   13.492272 (  13.117023)
+fibers (any thread)    13.522064   0.203243   13.725307 (  13.335025)
+fibers (same thread)   13.779778   0.110759   13.890537 (  13.497888)
+done for qty: 40
+
+- CRYSTAL_WORKERS=2
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000000   0.000513   0.000513 (  0.000308)
+fibers (any thread)    0.000000   0.002594   0.002594 (  0.001269)
+fibers (same thread)   0.000000   0.000393   0.000393 (  0.000393)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 24.122520   5.408983   29.531503 (  19.768751)
+fibers (any thread)    27.407515   7.190839   34.598354 (  17.431719)
+fibers (same thread)   23.688590   4.665404   28.353994 (  18.522442)
+done for qty: 40
+
+- CRYSTAL_WORKERS=4
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000121   0.000241   0.000362 (  0.000361)
+fibers (any thread)    0.000931   0.001861   0.002792 (  0.000812)
+fibers (same thread)   0.000651   0.001301   0.001952 (  0.000889)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 22.784261   6.574292   29.358553 (  18.114187)
+fibers (any thread)    33.433906   9.350115   42.784021 (  16.228090)
+fibers (same thread)   23.150374   6.554409   29.704783 (  18.187247)
+done for qty: 40
+
+- CRYSTAL_WORKERS=6
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000000   0.000333   0.000333 (  0.000332)
+fibers (any thread)    0.000000   0.004897   0.004897 (  0.001099)
+fibers (same thread)   0.000000   0.001633   0.001633 (  0.000769)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 20.162089   7.059436   27.221525 (  17.082284)
+fibers (any thread)    28.079444   9.137406   37.216850 (  10.397786)
+fibers (same thread)   31.026702   9.286897   40.313599 (  20.946313)
+done for qty: 40
+
+- CRYSTAL_WORKERS=8
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000000   0.000333   0.000333 (  0.000318)
+fibers (any thread)    0.000000   0.006951   0.006951 (  0.001144)
+fibers (same thread)   0.002024   0.000000   0.002024 (  0.000772)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 21.236216   8.153825   29.390041 (  17.656355)
+fibers (any thread)    37.560535   14.735461   52.295996 (  16.749520)
+fibers (same thread)   22.726031   7.063006   29.789037 (  17.832927)
+done for qty: 40
+
+- CRYSTAL_WORKERS=10
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000219   0.000110   0.000329 (  0.000327)
+fibers (any thread)    0.005010   0.002505   0.007515 (  0.001443)
+fibers (same thread)   0.001342   0.000671   0.002013 (  0.000775)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 22.282013   8.540219   30.822232 (  18.107109)
+fibers (any thread)    39.637056   14.880420   54.517476 (  17.448484)
+fibers (same thread)   23.189882   8.769265   31.959147 (  18.571599)
+done for qty: 40
+
+- CRYSTAL_WORKERS=12
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000338   0.000000   0.000338 (  0.000337)
+fibers (any thread)    0.007433   0.000000   0.007433 (  0.001166)
+fibers (same thread)   0.003527   0.000000   0.003527 (  0.000926)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 23.951559   9.552481   33.504040 (  19.465440)
+fibers (any thread)    6.295921   3.326947   9.622868 (  2.230606)
+fibers (same thread)   67.732538   26.380275   94.112813 (  34.456016)
+done for qty: 40
+
+- CRYSTAL_WORKERS=14
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000320   0.000000   0.000320 (  0.000319)
+fibers (any thread)    0.004942   0.000000   0.004942 (  0.000931)
+fibers (same thread)   0.007328   0.000000   0.007328 (  0.002083)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 24.765403   10.687092   35.452495 (  19.508365)
+fibers (any thread)    3.042647   1.634095   4.676742 (  1.098057)
+fibers (same thread)   74.657646   32.011206   106.668852 (  38.773548)
+done for qty: 40
+
+- CRYSTAL_WORKERS=16
+
+# array_360:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 0.000000   0.000334   0.000334 (  0.000332)
+fibers (any thread)    0.000000   0.005551   0.005551 (  0.000869)
+fibers (same thread)   0.000000   0.007551   0.007551 (  0.001478)
+done for qty: 40
+
+# fib:
+normal ...
+fibers (any thread) ...
+fibers (same thread) ...
+                           user     system      total        real
+normal                 24.719977   12.859340   37.579317 (  20.060682)
+fibers (any thread)    41.841061   19.935772   61.776833 (  19.744548)
+fibers (same thread)   26.738046   13.120669   39.858715 (  21.206222)
+done for qty: 40
+
+Done
+
