@@ -29,3 +29,9 @@ BENCH_QTY_LOOPS=10 ./run.sh
 # e.g.:
 BENCH_QTY_LOOPS=10 bash ./run.sh
 ```
+
+## Debug
+
+```bash
+BENCH_QTY_LOOPS=10 CRYSTAL_WORKERS=7 crystal bench.cr -d
+```

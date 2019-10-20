@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-rm -R log
+# rm -R log
 mkdir log
+rm -R tmp
+mkdir tmp
 
 touch log/bench.log
 
@@ -11,7 +13,7 @@ touch log/bench.log
 # ./bench_old 2>&1 | tee -a log/bench.log
 
 echo 2>&1 | tee -a log/bench.log
-echo "# Crystal 0.31.0" 2>&1 | tee -a log/bench.log
+crystal -v 2>&1 | tee -a log/bench.log
 
 for i in {1..32}
 do
@@ -21,3 +23,7 @@ do
 done
 
 cat log/bench.log
+# ls -al log/bench.cr.*.csv
+
+# Aggregate results
+cat tmp/bench.cr.ql_${BENCH_QTY_LOOPS}.*.csv > log/bench.cr.ql_${BENCH_QTY_LOOPS}.csv
