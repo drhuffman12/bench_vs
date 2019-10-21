@@ -16,7 +16,7 @@ Feel free to fork and submit pull requests.
 
   For Ruby vs Crystal:
 
-  - Crystal is several times faster than the Ruby for 'regular' runs of Fibonacci. (Of coursem, your results can vary depending on what you are benchmarking!) If you go with threads/fibers/processes instead, your milage may vary tremendously.
+  - Crystal (when compiled in release mode) is several times faster than the Ruby for 'regular' runs of Fibonacci. (Of coursem, your results can vary depending on what you are benchmarking!) If you go with threads/fibers/processes instead, your milage may vary tremendously.
 
   For Ruby:
 
@@ -48,8 +48,10 @@ Feel free to fork and submit pull requests.
     ```
 
   For Crystal-lang:
+
+    We have some fiber optimization options to compare.
   
-  - Fibanacci ('any-thread' fibers can help tremendously, but watch out for peaks and valleys)
+  - Fibanacci ('any-thread' fibers and high CRYSTAL_WORKERS count can help tremendously, but watch out for peaks and valleys!)
     ![Fibanacci](threads/crystal/results/intel_i7-6700HQ_aka_8_cores/max128workers/bench.cr.fib.png)
   
   - Array 360 (minimal CPU usage, maximizing fiber overhead ratio)
