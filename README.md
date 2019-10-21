@@ -51,8 +51,8 @@ Feel free to fork and submit pull requests.
 
     We have some fiber optimization options to compare.
   
-  - Fibanacci ('any-thread' fibers and high CRYSTAL_WORKERS count can help tremendously, but watch out for peaks and valleys!)
-    ![Fibanacci](threads/crystal/results/intel_i7-6700HQ_aka_8_cores/max128workers/bench.cr.fib.png)
+  - Fibonacci ('any-thread' fibers and high CRYSTAL_WORKERS count can help tremendously, but watch out for peaks and valleys!)
+    ![Fibonacci](threads/crystal/results/intel_i7-6700HQ_aka_8_cores/max128workers/bench.cr.fib.png)
   
   - Array 360 (minimal CPU usage, maximizing fiber overhead ratio)
     ![Array 360](threads/crystal/results/intel_i7-6700HQ_aka_8_cores/max128workers/bench.cr.array_360.png)

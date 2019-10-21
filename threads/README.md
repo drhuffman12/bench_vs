@@ -11,7 +11,7 @@
    
   The darker green is for 'any-thread' fibers; with the light green being real time times worker count.
 
-  - [Fibanacci](threads/README.md)
+  - [Fibonacci](threads/README.md)
 
     The net effect of 'same-thread' fibers is typically WORSE than 'regular' runs.
 
