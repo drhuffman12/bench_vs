@@ -15,7 +15,7 @@ touch log/bench.log
 echo 2>&1 | tee -a log/bench.log
 crystal -v 2>&1 | tee -a log/bench.log
 
-for i in {1..32}
+for i in {1..128}
 do
   echo 2>&1 | tee -a log/bench.log
   echo "- CRYSTAL_WORKERS=${i}" 2>&1 | tee -a log/bench.log
