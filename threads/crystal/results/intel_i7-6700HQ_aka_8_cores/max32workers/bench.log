@@ -1,0 +1,911 @@
+
+Crystal 0.31.1 [0e2e1d067] (2019-09-30)
+
+LLVM: 8.0.0
+Default target: x86_64-unknown-linux-gnu
+
+- CRYSTAL_WORKERS=1
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 1, "normal" => 2.2202e-5, "fibers_any_thread" => 0.000167051, "fibers_same_thread" => 1.4219e-5, "fibers_any_thread_times_worker" => 0.000167051, "fibers_same_thread_times_worker" => 1.4219e-5, "fibers_any_thread_per_worker" => 0.000167051, "fibers_same_thread_per_worker" => 1.4219e-5}, {"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 1, "normal" => 1.3798e-5, "fibers_any_thread" => 1.9541e-5, "fibers_same_thread" => 3.0453e-5, "fibers_any_thread_times_worker" => 1.9541e-5, "fibers_same_thread_times_worker" => 3.0453e-5, "fibers_any_thread_per_worker" => 1.9541e-5, "fibers_same_thread_per_worker" => 3.0453e-5}]
+
+- CRYSTAL_WORKERS=2
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 2, "normal" => 2.1555e-5, "fibers_any_thread" => 8.4138e-5, "fibers_same_thread" => 4.8307e-5, "fibers_any_thread_times_worker" => 0.000168276, "fibers_same_thread_times_worker" => 9.6614e-5, "fibers_any_thread_per_worker" => 4.2069e-5, "fibers_same_thread_per_worker" => 2.41535e-5}, {"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 2, "normal" => 1.3855e-5, "fibers_any_thread" => 4.1975e-5, "fibers_same_thread" => 4.0274e-5, "fibers_any_thread_times_worker" => 8.395e-5, "fibers_same_thread_times_worker" => 8.0548e-5, "fibers_any_thread_per_worker" => 2.09875e-5, "fibers_same_thread_per_worker" => 2.0137e-5}]
+
+- CRYSTAL_WORKERS=3
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 3, "normal" => 2.5646e-5, "fibers_any_thread" => 0.00010443, "fibers_same_thread" => 8.3489e-5, "fibers_any_thread_times_worker" => 0.00031329000000000003, "fibers_same_thread_times_worker" => 0.000250467, "fibers_any_thread_per_worker" => 3.481e-5, "fibers_same_thread_per_worker" => 2.7829666666666665e-5}, {"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 3, "normal" => 1.1951e-5, "fibers_any_thread" => 3.0435e-5, "fibers_same_thread" => 6.3727e-5, "fibers_any_thread_times_worker" => 9.1305e-5, "fibers_same_thread_times_worker" => 0.00019118099999999998, "fibers_any_thread_per_worker" => 1.0145e-5, "fibers_same_thread_per_worker" => 2.124233333333333e-5}]
+
+- CRYSTAL_WORKERS=4
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 4, "normal" => 2.3537e-5, "fibers_any_thread" => 0.000131776, "fibers_same_thread" => 8.3898e-5, "fibers_any_thread_times_worker" => 0.000527104, "fibers_same_thread_times_worker" => 0.000335592, "fibers_any_thread_per_worker" => 3.2944e-5, "fibers_same_thread_per_worker" => 2.09745e-5}, {"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 4, "normal" => 2.4394e-5, "fibers_any_thread" => 3.6039e-5, "fibers_same_thread" => 7.6779e-5, "fibers_any_thread_times_worker" => 0.000144156, "fibers_same_thread_times_worker" => 0.000307116, "fibers_any_thread_per_worker" => 9.00975e-6, "fibers_same_thread_per_worker" => 1.919475e-5}]
+
+- CRYSTAL_WORKERS=5
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 5, "normal" => 2.3242e-5, "fibers_any_thread" => 0.000125267, "fibers_same_thread" => 5.9695e-5, "fibers_any_thread_times_worker" => 0.000626335, "fibers_same_thread_times_worker" => 0.000298475, "fibers_any_thread_per_worker" => 2.50534e-5, "fibers_same_thread_per_worker" => 1.1938999999999999e-5}, {"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 5, "normal" => 1.5794e-5, "fibers_any_thread" => 0.000101519, "fibers_same_thread" => 5.5971e-5, "fibers_any_thread_times_worker" => 0.000507595, "fibers_same_thread_times_worker" => 0.000279855, "fibers_any_thread_per_worker" => 2.03038e-5, "fibers_same_thread_per_worker" => 1.11942e-5}]
+
+- CRYSTAL_WORKERS=6
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 6, "normal" => 2.9171e-5, "fibers_any_thread" => 0.000173074, "fibers_same_thread" => 6.0577e-5, "fibers_any_thread_times_worker" => 0.001038444, "fibers_same_thread_times_worker" => 0.000363462, "fibers_any_thread_per_worker" => 2.8845666666666667e-5, "fibers_same_thread_per_worker" => 1.0096166666666667e-5}, {"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 6, "normal" => 2.3692e-5, "fibers_any_thread" => 5.3994e-5, "fibers_same_thread" => 4.5014e-5, "fibers_any_thread_times_worker" => 0.000323964, "fibers_same_thread_times_worker" => 0.00027008399999999997, "fibers_any_thread_per_worker" => 8.999e-6, "fibers_same_thread_per_worker" => 7.5023333333333336e-6}]
+
+- CRYSTAL_WORKERS=7
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 7, "normal" => 2.7476e-5, "fibers_any_thread" => 9.9289e-5, "fibers_same_thread" => 6.3667e-5, "fibers_any_thread_times_worker" => 0.000695023, "fibers_same_thread_times_worker" => 0.000445669, "fibers_any_thread_per_worker" => 1.4184142857142858e-5, "fibers_same_thread_per_worker" => 9.095285714285715e-6}, {"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 7, "normal" => 1.6043e-5, "fibers_any_thread" => 3.51e-5, "fibers_same_thread" => 3.9231e-5, "fibers_any_thread_times_worker" => 0.0002457, "fibers_same_thread_times_worker" => 0.000274617, "fibers_any_thread_per_worker" => 5.0142857142857144e-6, "fibers_same_thread_per_worker" => 5.604428571428571e-6}]
+
+- CRYSTAL_WORKERS=8
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 8, "normal" => 2.7306e-5, "fibers_any_thread" => 0.000109761, "fibers_same_thread" => 7.5762e-5, "fibers_any_thread_times_worker" => 0.000878088, "fibers_same_thread_times_worker" => 0.000606096, "fibers_any_thread_per_worker" => 1.3720125e-5, "fibers_same_thread_per_worker" => 9.47025e-6}, {"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 8, "normal" => 1.4373e-5, "fibers_any_thread" => 6.2336e-5, "fibers_same_thread" => 4.0477e-5, "fibers_any_thread_times_worker" => 0.000498688, "fibers_same_thread_times_worker" => 0.000323816, "fibers_any_thread_per_worker" => 7.792e-6, "fibers_same_thread_per_worker" => 5.059625e-6}]
+
+- CRYSTAL_WORKERS=9
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 9, "normal" => 2.9518e-5, "fibers_any_thread" => 0.00014799, "fibers_same_thread" => 7.7085e-5, "fibers_any_thread_times_worker" => 0.00133191, "fibers_same_thread_times_worker" => 0.0006937649999999999, "fibers_any_thread_per_worker" => 1.6443333333333332e-5, "fibers_same_thread_per_worker" => 8.565e-6}, {"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 9, "normal" => 1.3913e-5, "fibers_any_thread" => 8.6114e-5, "fibers_same_thread" => 3.8987e-5, "fibers_any_thread_times_worker" => 0.000775026, "fibers_same_thread_times_worker" => 0.00035088299999999997, "fibers_any_thread_per_worker" => 9.568222222222222e-6, "fibers_same_thread_per_worker" => 4.3318888888888886e-6}]
+
+- CRYSTAL_WORKERS=10
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 10, "normal" => 2.686e-5, "fibers_any_thread" => 0.000136762, "fibers_same_thread" => 9.2648e-5, "fibers_any_thread_times_worker" => 0.00136762, "fibers_same_thread_times_worker" => 0.0009264799999999999, "fibers_any_thread_per_worker" => 1.36762e-5, "fibers_same_thread_per_worker" => 9.2648e-6}, {"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 10, "normal" => 1.5525e-5, "fibers_any_thread" => 8.5784e-5, "fibers_same_thread" => 1.7178e-5, "fibers_any_thread_times_worker" => 0.00085784, "fibers_same_thread_times_worker" => 0.00017178, "fibers_any_thread_per_worker" => 8.5784e-6, "fibers_same_thread_per_worker" => 1.7178e-6}]
+
+- CRYSTAL_WORKERS=11
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 11, "normal" => 2.4512e-5, "fibers_any_thread" => 0.000120964, "fibers_same_thread" => 0.000103065, "fibers_any_thread_times_worker" => 0.001330604, "fibers_same_thread_times_worker" => 0.001133715, "fibers_any_thread_per_worker" => 1.0996727272727273e-5, "fibers_same_thread_per_worker" => 9.369545454545454e-6}, {"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 11, "normal" => 1.5387e-5, "fibers_any_thread" => 5.334e-5, "fibers_same_thread" => 0.000132997, "fibers_any_thread_times_worker" => 0.00058674, "fibers_same_thread_times_worker" => 0.001462967, "fibers_any_thread_per_worker" => 4.849090909090909e-6, "fibers_same_thread_per_worker" => 1.2090636363636363e-5}]
+
+- CRYSTAL_WORKERS=12
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 12, "normal" => 9.959e-5, "fibers_any_thread" => 0.000133155, "fibers_same_thread" => 0.000128733, "fibers_any_thread_times_worker" => 0.00159786, "fibers_same_thread_times_worker" => 0.0015447959999999998, "fibers_any_thread_per_worker" => 1.109625e-5, "fibers_same_thread_per_worker" => 1.0727749999999999e-5}, {"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 12, "normal" => 1.3812e-5, "fibers_any_thread" => 4.3237e-5, "fibers_same_thread" => 5.129e-5, "fibers_any_thread_times_worker" => 0.000518844, "fibers_same_thread_times_worker" => 0.00061548, "fibers_any_thread_per_worker" => 3.603083333333333e-6, "fibers_same_thread_per_worker" => 4.274166666666666e-6}]
+
+- CRYSTAL_WORKERS=13
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 13, "normal" => 2.6744e-5, "fibers_any_thread" => 0.000103064, "fibers_same_thread" => 8.7548e-5, "fibers_any_thread_times_worker" => 0.001339832, "fibers_same_thread_times_worker" => 0.001138124, "fibers_any_thread_per_worker" => 7.928e-6, "fibers_same_thread_per_worker" => 6.734461538461538e-6}, {"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 13, "normal" => 2.0657e-5, "fibers_any_thread" => 5.822e-5, "fibers_same_thread" => 9.2158e-5, "fibers_any_thread_times_worker" => 0.00075686, "fibers_same_thread_times_worker" => 0.0011980539999999998, "fibers_any_thread_per_worker" => 4.4784615384615385e-6, "fibers_same_thread_per_worker" => 7.089076923076922e-6}]
+
+- CRYSTAL_WORKERS=14
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 14, "normal" => 2.9082e-5, "fibers_any_thread" => 0.000137585, "fibers_same_thread" => 0.000125289, "fibers_any_thread_times_worker" => 0.00192619, "fibers_same_thread_times_worker" => 0.001754046, "fibers_any_thread_per_worker" => 9.827499999999999e-6, "fibers_same_thread_per_worker" => 8.949214285714285e-6}, {"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 14, "normal" => 2.4087e-5, "fibers_any_thread" => 4.8148e-5, "fibers_same_thread" => 7.8631e-5, "fibers_any_thread_times_worker" => 0.000674072, "fibers_same_thread_times_worker" => 0.001100834, "fibers_any_thread_per_worker" => 3.4391428571428574e-6, "fibers_same_thread_per_worker" => 5.6165e-6}]
+
+- CRYSTAL_WORKERS=15
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 15, "normal" => 2.6073e-5, "fibers_any_thread" => 0.000127374, "fibers_same_thread" => 0.000104945, "fibers_any_thread_times_worker" => 0.00191061, "fibers_same_thread_times_worker" => 0.0015741750000000001, "fibers_any_thread_per_worker" => 8.4916e-6, "fibers_same_thread_per_worker" => 6.996333333333334e-6}, {"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 15, "normal" => 1.9615e-5, "fibers_any_thread" => 4.9214e-5, "fibers_same_thread" => 6.6222e-5, "fibers_any_thread_times_worker" => 0.00073821, "fibers_same_thread_times_worker" => 0.0009933300000000002, "fibers_any_thread_per_worker" => 3.280933333333333e-6, "fibers_same_thread_per_worker" => 4.4148000000000005e-6}]
+
+- CRYSTAL_WORKERS=16
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 16, "normal" => 3.5006e-5, "fibers_any_thread" => 0.000119477, "fibers_same_thread" => 9.5778e-5, "fibers_any_thread_times_worker" => 0.001911632, "fibers_same_thread_times_worker" => 0.001532448, "fibers_any_thread_per_worker" => 7.4673125e-6, "fibers_same_thread_per_worker" => 5.986125e-6}, {"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 16, "normal" => 1.7887e-5, "fibers_any_thread" => 5.6729e-5, "fibers_same_thread" => 6.2073e-5, "fibers_any_thread_times_worker" => 0.000907664, "fibers_same_thread_times_worker" => 0.000993168, "fibers_any_thread_per_worker" => 3.5455625e-6, "fibers_same_thread_per_worker" => 3.8795625e-6}]
+
+- CRYSTAL_WORKERS=17
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 17, "normal" => 2.8538e-5, "fibers_any_thread" => 0.000119853, "fibers_same_thread" => 7.4491e-5, "fibers_any_thread_times_worker" => 0.002037501, "fibers_same_thread_times_worker" => 0.0012663470000000001, "fibers_any_thread_per_worker" => 7.050176470588236e-6, "fibers_same_thread_per_worker" => 4.381823529411765e-6}, {"batch_timestamp" => "2019-10-20 16:45:51 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 17, "normal" => 2.204e-5, "fibers_any_thread" => 5.2664e-5, "fibers_same_thread" => 6.3875e-5, "fibers_any_thread_times_worker" => 0.000895288, "fibers_same_thread_times_worker" => 0.0010858749999999998, "fibers_any_thread_per_worker" => 3.097882352941177e-6, "fibers_same_thread_per_worker" => 3.75735294117647e-6}]
+
+- CRYSTAL_WORKERS=18
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 18, "normal" => 2.9266e-5, "fibers_any_thread" => 0.000116073, "fibers_same_thread" => 9.7212e-5, "fibers_any_thread_times_worker" => 0.002089314, "fibers_same_thread_times_worker" => 0.001749816, "fibers_any_thread_per_worker" => 6.4485e-6, "fibers_same_thread_per_worker" => 5.400666666666667e-6}, {"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 18, "normal" => 2.3673e-5, "fibers_any_thread" => 5.0408e-5, "fibers_same_thread" => 6.9624e-5, "fibers_any_thread_times_worker" => 0.000907344, "fibers_same_thread_times_worker" => 0.001253232, "fibers_any_thread_per_worker" => 2.8004444444444447e-6, "fibers_same_thread_per_worker" => 3.868e-6}]
+
+- CRYSTAL_WORKERS=19
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 19, "normal" => 2.8456e-5, "fibers_any_thread" => 0.000119907, "fibers_same_thread" => 9.9872e-5, "fibers_any_thread_times_worker" => 0.002278233, "fibers_same_thread_times_worker" => 0.0018975679999999999, "fibers_any_thread_per_worker" => 6.310894736842105e-6, "fibers_same_thread_per_worker" => 5.256421052631579e-6}, {"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 19, "normal" => 1.9915e-5, "fibers_any_thread" => 0.000125567, "fibers_same_thread" => 9.6707e-5, "fibers_any_thread_times_worker" => 0.0023857730000000003, "fibers_same_thread_times_worker" => 0.0018374329999999999, "fibers_any_thread_per_worker" => 6.608789473684212e-6, "fibers_same_thread_per_worker" => 5.089842105263158e-6}]
+
+- CRYSTAL_WORKERS=20
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 20, "normal" => 2.5321e-5, "fibers_any_thread" => 0.000117651, "fibers_same_thread" => 8.7256e-5, "fibers_any_thread_times_worker" => 0.00235302, "fibers_same_thread_times_worker" => 0.0017451200000000002, "fibers_any_thread_per_worker" => 5.88255e-6, "fibers_same_thread_per_worker" => 4.3628e-6}, {"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 20, "normal" => 1.8371e-5, "fibers_any_thread" => 5.0756e-5, "fibers_same_thread" => 9.3281e-5, "fibers_any_thread_times_worker" => 0.00101512, "fibers_same_thread_times_worker" => 0.0018656200000000001, "fibers_any_thread_per_worker" => 2.5378e-6, "fibers_same_thread_per_worker" => 4.66405e-6}]
+
+- CRYSTAL_WORKERS=21
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 21, "normal" => 2.4956e-5, "fibers_any_thread" => 0.000122753, "fibers_same_thread" => 9.1485e-5, "fibers_any_thread_times_worker" => 0.002577813, "fibers_same_thread_times_worker" => 0.001921185, "fibers_any_thread_per_worker" => 5.8453809523809526e-6, "fibers_same_thread_per_worker" => 4.3564285714285715e-6}, {"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 21, "normal" => 1.6749e-5, "fibers_any_thread" => 4.7157e-5, "fibers_same_thread" => 0.000104575, "fibers_any_thread_times_worker" => 0.000990297, "fibers_same_thread_times_worker" => 0.002196075, "fibers_any_thread_per_worker" => 2.2455714285714286e-6, "fibers_same_thread_per_worker" => 4.9797619047619045e-6}]
+
+- CRYSTAL_WORKERS=22
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 22, "normal" => 2.6081e-5, "fibers_any_thread" => 0.000157765, "fibers_same_thread" => 0.000107503, "fibers_any_thread_times_worker" => 0.0034708300000000003, "fibers_same_thread_times_worker" => 0.002365066, "fibers_any_thread_per_worker" => 7.171136363636364e-6, "fibers_same_thread_per_worker" => 4.8865000000000006e-6}, {"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 22, "normal" => 1.9529e-5, "fibers_any_thread" => 7.5815e-5, "fibers_same_thread" => 0.000119604, "fibers_any_thread_times_worker" => 0.0016679300000000002, "fibers_same_thread_times_worker" => 0.002631288, "fibers_any_thread_per_worker" => 3.446136363636364e-6, "fibers_same_thread_per_worker" => 5.436545454545455e-6}]
+
+- CRYSTAL_WORKERS=23
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 23, "normal" => 2.5937e-5, "fibers_any_thread" => 0.000121023, "fibers_same_thread" => 9.5202e-5, "fibers_any_thread_times_worker" => 0.002783529, "fibers_same_thread_times_worker" => 0.002189646, "fibers_any_thread_per_worker" => 5.261869565217391e-6, "fibers_same_thread_per_worker" => 4.139217391304348e-6}, {"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 23, "normal" => 1.6775e-5, "fibers_any_thread" => 9.9402e-5, "fibers_same_thread" => 0.000109724, "fibers_any_thread_times_worker" => 0.002286246, "fibers_same_thread_times_worker" => 0.002523652, "fibers_any_thread_per_worker" => 4.321826086956521e-6, "fibers_same_thread_per_worker" => 4.7706086956521734e-6}]
+
+- CRYSTAL_WORKERS=24
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 24, "normal" => 2.2899e-5, "fibers_any_thread" => 0.000123247, "fibers_same_thread" => 0.000100962, "fibers_any_thread_times_worker" => 0.002957928, "fibers_same_thread_times_worker" => 0.002423088, "fibers_any_thread_per_worker" => 5.135291666666666e-6, "fibers_same_thread_per_worker" => 4.20675e-6}, {"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 24, "normal" => 1.7424e-5, "fibers_any_thread" => 5.9103e-5, "fibers_same_thread" => 0.000115403, "fibers_any_thread_times_worker" => 0.001418472, "fibers_same_thread_times_worker" => 0.002769672, "fibers_any_thread_per_worker" => 2.462625e-6, "fibers_same_thread_per_worker" => 4.808458333333334e-6}]
+
+- CRYSTAL_WORKERS=25
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 25, "normal" => 3.1462e-5, "fibers_any_thread" => 0.000173971, "fibers_same_thread" => 0.000116462, "fibers_any_thread_times_worker" => 0.0043492750000000005, "fibers_same_thread_times_worker" => 0.0029115499999999997, "fibers_any_thread_per_worker" => 6.9588400000000004e-6, "fibers_same_thread_per_worker" => 4.65848e-6}, {"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 25, "normal" => 2.0923e-5, "fibers_any_thread" => 5.7938e-5, "fibers_same_thread" => 0.00016056, "fibers_any_thread_times_worker" => 0.00144845, "fibers_same_thread_times_worker" => 0.004014, "fibers_any_thread_per_worker" => 2.31752e-6, "fibers_same_thread_per_worker" => 6.4224e-6}]
+
+- CRYSTAL_WORKERS=26
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 26, "normal" => 0.000108459, "fibers_any_thread" => 0.00014993800000000001, "fibers_same_thread" => 9.5156e-5, "fibers_any_thread_times_worker" => 0.0038983880000000005, "fibers_same_thread_times_worker" => 0.0024740559999999997, "fibers_any_thread_per_worker" => 5.766846153846154e-6, "fibers_same_thread_per_worker" => 3.659846153846154e-6}, {"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 26, "normal" => 4.1914e-5, "fibers_any_thread" => 7.1516e-5, "fibers_same_thread" => 0.000108797, "fibers_any_thread_times_worker" => 0.001859416, "fibers_same_thread_times_worker" => 0.0028287219999999997, "fibers_any_thread_per_worker" => 2.7506153846153846e-6, "fibers_same_thread_per_worker" => 4.1844999999999995e-6}]
+
+- CRYSTAL_WORKERS=27
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 27, "normal" => 2.7487e-5, "fibers_any_thread" => 0.000131185, "fibers_same_thread" => 9.9488e-5, "fibers_any_thread_times_worker" => 0.003541995, "fibers_same_thread_times_worker" => 0.0026861759999999998, "fibers_any_thread_per_worker" => 4.858703703703703e-6, "fibers_same_thread_per_worker" => 3.6847407407407405e-6}, {"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 27, "normal" => 2.8757e-5, "fibers_any_thread" => 4.1298000000000003e-05, "fibers_same_thread" => 0.000116349, "fibers_any_thread_times_worker" => 0.0011150460000000002, "fibers_same_thread_times_worker" => 0.003141423, "fibers_any_thread_per_worker" => 1.5295555555555557e-6, "fibers_same_thread_per_worker" => 4.309222222222222e-6}]
+
+- CRYSTAL_WORKERS=28
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 28, "normal" => 3.2202e-5, "fibers_any_thread" => 0.000104624, "fibers_same_thread" => 9.6524e-5, "fibers_any_thread_times_worker" => 0.0029294720000000002, "fibers_same_thread_times_worker" => 0.002702672, "fibers_any_thread_per_worker" => 3.736571428571429e-6, "fibers_same_thread_per_worker" => 3.4472857142857144e-6}, {"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 28, "normal" => 1.5858e-5, "fibers_any_thread" => 5.8001e-5, "fibers_same_thread" => 0.000115653, "fibers_any_thread_times_worker" => 0.001624028, "fibers_same_thread_times_worker" => 0.003238284, "fibers_any_thread_per_worker" => 2.071464285714286e-6, "fibers_same_thread_per_worker" => 4.1304642857142855e-6}]
+
+- CRYSTAL_WORKERS=29
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 29, "normal" => 3.036e-5, "fibers_any_thread" => 0.000145122, "fibers_same_thread" => 9.636e-5, "fibers_any_thread_times_worker" => 0.0042085379999999995, "fibers_same_thread_times_worker" => 0.00279444, "fibers_any_thread_per_worker" => 5.004206896551724e-6, "fibers_same_thread_per_worker" => 3.3227586206896555e-6}, {"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 29, "normal" => 1.4429e-5, "fibers_any_thread" => 6.9835e-5, "fibers_same_thread" => 0.000110013, "fibers_any_thread_times_worker" => 0.002025215, "fibers_same_thread_times_worker" => 0.0031903770000000003, "fibers_any_thread_per_worker" => 2.408103448275862e-6, "fibers_same_thread_per_worker" => 3.793551724137931e-6}]
+
+- CRYSTAL_WORKERS=30
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 30, "normal" => 2.2935e-5, "fibers_any_thread" => 0.000161852, "fibers_same_thread" => 0.000124717, "fibers_any_thread_times_worker" => 0.00485556, "fibers_same_thread_times_worker" => 0.00374151, "fibers_any_thread_per_worker" => 5.395066666666667e-6, "fibers_same_thread_per_worker" => 4.157233333333333e-6}, {"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 30, "normal" => 1.7158e-5, "fibers_any_thread" => 0.000100073, "fibers_same_thread" => 0.000124003, "fibers_any_thread_times_worker" => 0.00300219, "fibers_same_thread_times_worker" => 0.00372009, "fibers_any_thread_per_worker" => 3.335766666666667e-6, "fibers_same_thread_per_worker" => 4.1334333333333335e-6}]
+
+- CRYSTAL_WORKERS=31
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 31, "normal" => 2.4873e-5, "fibers_any_thread" => 0.000137771, "fibers_same_thread" => 8.4545e-5, "fibers_any_thread_times_worker" => 0.004270901, "fibers_same_thread_times_worker" => 0.002620895, "fibers_any_thread_per_worker" => 4.444225806451613e-6, "fibers_same_thread_per_worker" => 2.727258064516129e-6}, {"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 31, "normal" => 1.4495e-5, "fibers_any_thread" => 3.1736e-5, "fibers_same_thread" => 0.000144132, "fibers_any_thread_times_worker" => 0.000983816, "fibers_same_thread_times_worker" => 0.004468092, "fibers_any_thread_per_worker" => 1.023741935483871e-6, "fibers_same_thread_per_worker" => 4.64941935483871e-6}]
+
+- CRYSTAL_WORKERS=32
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "array_360", "env_crystal_workers" => 32, "normal" => 2.1659e-5, "fibers_any_thread" => 0.000126388, "fibers_same_thread" => 7.6832e-5, "fibers_any_thread_times_worker" => 0.004044416, "fibers_same_thread_times_worker" => 0.002458624, "fibers_any_thread_per_worker" => 3.949625e-6, "fibers_same_thread_per_worker" => 2.401e-6}, {"batch_timestamp" => "2019-10-20 16:45:52 UTC", "qty_loops" => 10, "title" => "fib", "env_crystal_workers" => 32, "normal" => 1.6391e-5, "fibers_any_thread" => 5.1862e-5, "fibers_same_thread" => 0.000133672, "fibers_any_thread_times_worker" => 0.001659584, "fibers_same_thread_times_worker" => 0.004277504, "fibers_any_thread_per_worker" => 1.6206875e-6, "fibers_same_thread_per_worker" => 4.17725e-6}]
+
+Crystal 0.31.1 [0e2e1d067] (2019-09-30)
+
+LLVM: 8.0.0
+Default target: x86_64-unknown-linux-gnu
+
+- CRYSTAL_WORKERS=1
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 1, "normal" => 0.000105306, "fibers_any_thread" => 0.000363218, "fibers_same_thread" => 8.738e-5, "fibers_any_thread_times_worker" => 0.000363218, "fibers_same_thread_times_worker" => 8.738e-5, "fibers_any_thread_per_worker" => 0.000363218, "fibers_same_thread_per_worker" => 8.738e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 1, "normal" => 0.002035976, "fibers_any_thread" => 0.002405069, "fibers_same_thread" => 0.002544188, "fibers_any_thread_times_worker" => 0.002405069, "fibers_same_thread_times_worker" => 0.002544188, "fibers_any_thread_per_worker" => 0.002405069, "fibers_same_thread_per_worker" => 0.002544188}]
+
+- CRYSTAL_WORKERS=2
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 2, "normal" => 0.000196238, "fibers_any_thread" => 0.000457236, "fibers_same_thread" => 0.000278022, "fibers_any_thread_times_worker" => 0.000914472, "fibers_same_thread_times_worker" => 0.000556044, "fibers_any_thread_per_worker" => 0.000228618, "fibers_same_thread_per_worker" => 0.000139011}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 2, "normal" => 0.002431652, "fibers_any_thread" => 0.002085567, "fibers_same_thread" => 0.002001058, "fibers_any_thread_times_worker" => 0.004171134, "fibers_same_thread_times_worker" => 0.004002116, "fibers_any_thread_per_worker" => 0.0010427835, "fibers_same_thread_per_worker" => 0.001000529}]
+
+- CRYSTAL_WORKERS=3
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 3, "normal" => 0.000110548, "fibers_any_thread" => 0.000346876, "fibers_same_thread" => 0.000191426, "fibers_any_thread_times_worker" => 0.001040628, "fibers_same_thread_times_worker" => 0.000574278, "fibers_any_thread_per_worker" => 0.00011562533333333333, "fibers_same_thread_per_worker" => 6.380866666666666e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 3, "normal" => 0.002320395, "fibers_any_thread" => 0.001216445, "fibers_same_thread" => 0.001962623, "fibers_any_thread_times_worker" => 0.003649335, "fibers_same_thread_times_worker" => 0.0058878690000000004, "fibers_any_thread_per_worker" => 0.00040548166666666666, "fibers_same_thread_per_worker" => 0.0006542076666666667}]
+
+- CRYSTAL_WORKERS=4
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 4, "normal" => 0.000100731, "fibers_any_thread" => 0.000393741, "fibers_same_thread" => 0.000243804, "fibers_any_thread_times_worker" => 0.001574964, "fibers_same_thread_times_worker" => 0.000975216, "fibers_any_thread_per_worker" => 9.843525e-5, "fibers_same_thread_per_worker" => 6.0951e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 4, "normal" => 0.002242007, "fibers_any_thread" => 0.001284534, "fibers_same_thread" => 0.002501844, "fibers_any_thread_times_worker" => 0.005138136, "fibers_same_thread_times_worker" => 0.010007376, "fibers_any_thread_per_worker" => 0.0003211335, "fibers_same_thread_per_worker" => 0.000625461}]
+
+- CRYSTAL_WORKERS=5
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 5, "normal" => 0.000112761, "fibers_any_thread" => 0.000444284, "fibers_same_thread" => 0.000255744, "fibers_any_thread_times_worker" => 0.00222142, "fibers_same_thread_times_worker" => 0.0012787200000000001, "fibers_any_thread_per_worker" => 8.885679999999999e-5, "fibers_same_thread_per_worker" => 5.114880000000001e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 5, "normal" => 0.002034804, "fibers_any_thread" => 0.001686621, "fibers_same_thread" => 0.001877807, "fibers_any_thread_times_worker" => 0.008433105, "fibers_same_thread_times_worker" => 0.009389035, "fibers_any_thread_per_worker" => 0.00033732419999999997, "fibers_same_thread_per_worker" => 0.0003755614}]
+
+- CRYSTAL_WORKERS=6
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 6, "normal" => 9.7729e-5, "fibers_any_thread" => 0.000395497, "fibers_same_thread" => 0.000212806, "fibers_any_thread_times_worker" => 0.002372982, "fibers_same_thread_times_worker" => 0.001276836, "fibers_any_thread_per_worker" => 6.591616666666667e-5, "fibers_same_thread_per_worker" => 3.5467666666666666e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 6, "normal" => 0.001989863, "fibers_any_thread" => 0.000573236, "fibers_same_thread" => 0.002387766, "fibers_any_thread_times_worker" => 0.003439416, "fibers_same_thread_times_worker" => 0.014326596, "fibers_any_thread_per_worker" => 9.553933333333333e-5, "fibers_same_thread_per_worker" => 0.000397961}]
+
+- CRYSTAL_WORKERS=7
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 7, "normal" => 9.4463e-5, "fibers_any_thread" => 0.000358831, "fibers_same_thread" => 0.00024881, "fibers_any_thread_times_worker" => 0.002511817, "fibers_same_thread_times_worker" => 0.0017416700000000003, "fibers_any_thread_per_worker" => 5.126157142857143e-5, "fibers_same_thread_per_worker" => 3.554428571428572e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 7, "normal" => 0.002003513, "fibers_any_thread" => 0.000248983, "fibers_same_thread" => 0.003577955, "fibers_any_thread_times_worker" => 0.001742881, "fibers_same_thread_times_worker" => 0.025045684999999998, "fibers_any_thread_per_worker" => 3.5569e-5, "fibers_same_thread_per_worker" => 0.0005111364285714286}]
+
+- CRYSTAL_WORKERS=8
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 8, "normal" => 9.3801e-5, "fibers_any_thread" => 0.00032884, "fibers_same_thread" => 0.000236248, "fibers_any_thread_times_worker" => 0.00263072, "fibers_same_thread_times_worker" => 0.001889984, "fibers_any_thread_per_worker" => 4.1105e-5, "fibers_same_thread_per_worker" => 2.9531e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 8, "normal" => 0.001841368, "fibers_any_thread" => 0.001781296, "fibers_same_thread" => 0.001452839, "fibers_any_thread_times_worker" => 0.014250368, "fibers_same_thread_times_worker" => 0.011622712, "fibers_any_thread_per_worker" => 0.000222662, "fibers_same_thread_per_worker" => 0.000181604875}]
+
+- CRYSTAL_WORKERS=9
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 9, "normal" => 9.8119e-5, "fibers_any_thread" => 0.000364336, "fibers_same_thread" => 0.000290088, "fibers_any_thread_times_worker" => 0.0032790239999999997, "fibers_same_thread_times_worker" => 0.002610792, "fibers_any_thread_per_worker" => 4.048177777777778e-5, "fibers_same_thread_per_worker" => 3.2232e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 9, "normal" => 0.002345542, "fibers_any_thread" => 0.000871768, "fibers_same_thread" => 0.002216456, "fibers_any_thread_times_worker" => 0.007845912, "fibers_same_thread_times_worker" => 0.019948103999999998, "fibers_any_thread_per_worker" => 9.686311111111111e-5, "fibers_same_thread_per_worker" => 0.0002462728888888889}]
+
+- CRYSTAL_WORKERS=10
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 10, "normal" => 0.000106108, "fibers_any_thread" => 0.000552088, "fibers_same_thread" => 0.000200524, "fibers_any_thread_times_worker" => 0.00552088, "fibers_same_thread_times_worker" => 0.00200524, "fibers_any_thread_per_worker" => 5.520879999999999e-5, "fibers_same_thread_per_worker" => 2.0052399999999998e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 10, "normal" => 0.00228513, "fibers_any_thread" => 0.00199599, "fibers_same_thread" => 0.001299451, "fibers_any_thread_times_worker" => 0.0199599, "fibers_same_thread_times_worker" => 0.01299451, "fibers_any_thread_per_worker" => 0.000199599, "fibers_same_thread_per_worker" => 0.0001299451}]
+
+- CRYSTAL_WORKERS=11
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 11, "normal" => 9.9833e-5, "fibers_any_thread" => 0.000359023, "fibers_same_thread" => 0.00028273, "fibers_any_thread_times_worker" => 0.003949253, "fibers_same_thread_times_worker" => 0.00311003, "fibers_any_thread_per_worker" => 3.263845454545454e-5, "fibers_same_thread_per_worker" => 2.5702727272727276e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 11, "normal" => 0.002120069, "fibers_any_thread" => 0.000280142, "fibers_same_thread" => 0.003221038, "fibers_any_thread_times_worker" => 0.003081562, "fibers_same_thread_times_worker" => 0.035431418, "fibers_any_thread_per_worker" => 2.5467454545454544e-5, "fibers_same_thread_per_worker" => 0.00029282163636363634}]
+
+- CRYSTAL_WORKERS=12
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 12, "normal" => 0.000105805, "fibers_any_thread" => 0.000340522, "fibers_same_thread" => 0.000267059, "fibers_any_thread_times_worker" => 0.004086264, "fibers_same_thread_times_worker" => 0.0032047079999999997, "fibers_any_thread_per_worker" => 2.8376833333333332e-5, "fibers_same_thread_per_worker" => 2.2254916666666666e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 12, "normal" => 0.002325652, "fibers_any_thread" => 0.000948484, "fibers_same_thread" => 0.002987321, "fibers_any_thread_times_worker" => 0.011381808, "fibers_same_thread_times_worker" => 0.035847852, "fibers_any_thread_per_worker" => 7.904033333333334e-5, "fibers_same_thread_per_worker" => 0.00024894341666666667}]
+
+- CRYSTAL_WORKERS=13
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 13, "normal" => 0.000101196, "fibers_any_thread" => 0.000346688, "fibers_same_thread" => 0.000229534, "fibers_any_thread_times_worker" => 0.004506944, "fibers_same_thread_times_worker" => 0.002983942, "fibers_any_thread_per_worker" => 2.666830769230769e-5, "fibers_same_thread_per_worker" => 1.7656461538461538e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 13, "normal" => 0.001870195, "fibers_any_thread" => 0.001759058, "fibers_same_thread" => 0.001561532, "fibers_any_thread_times_worker" => 0.022867754, "fibers_same_thread_times_worker" => 0.020299916, "fibers_any_thread_per_worker" => 0.00013531215384615384, "fibers_same_thread_per_worker" => 0.00012011784615384616}]
+
+- CRYSTAL_WORKERS=14
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 14, "normal" => 0.000104241, "fibers_any_thread" => 0.000469847, "fibers_same_thread" => 0.000198574, "fibers_any_thread_times_worker" => 0.006577858000000001, "fibers_same_thread_times_worker" => 0.002780036, "fibers_any_thread_per_worker" => 3.35605e-5, "fibers_same_thread_per_worker" => 1.4183857142857144e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 14, "normal" => 0.002284272, "fibers_any_thread" => 0.000108674, "fibers_same_thread" => 0.004153017, "fibers_any_thread_times_worker" => 0.001521436, "fibers_same_thread_times_worker" => 0.058142238, "fibers_any_thread_per_worker" => 7.76242857142857e-6, "fibers_same_thread_per_worker" => 0.00029664407142857143}]
+
+- CRYSTAL_WORKERS=15
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 15, "normal" => 0.000104988, "fibers_any_thread" => 0.000361347, "fibers_same_thread" => 0.000203377, "fibers_any_thread_times_worker" => 0.005420205, "fibers_same_thread_times_worker" => 0.003050655, "fibers_any_thread_per_worker" => 2.4089799999999998e-5, "fibers_same_thread_per_worker" => 1.3558466666666667e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 15, "normal" => 0.002336485, "fibers_any_thread" => 0.000104592, "fibers_same_thread" => 0.002910591, "fibers_any_thread_times_worker" => 0.0015688800000000001, "fibers_same_thread_times_worker" => 0.043658865000000005, "fibers_any_thread_per_worker" => 6.9728e-6, "fibers_same_thread_per_worker" => 0.00019403940000000002}]
+
+- CRYSTAL_WORKERS=16
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 16, "normal" => 0.000108939, "fibers_any_thread" => 0.000348378, "fibers_same_thread" => 0.000234853, "fibers_any_thread_times_worker" => 0.005574048, "fibers_same_thread_times_worker" => 0.003757648, "fibers_any_thread_per_worker" => 2.1773625e-5, "fibers_same_thread_per_worker" => 1.46783125e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 16, "normal" => 0.002638495, "fibers_any_thread" => 0.000128705, "fibers_same_thread" => 0.003429373, "fibers_any_thread_times_worker" => 0.00205928, "fibers_same_thread_times_worker" => 0.054869968, "fibers_any_thread_per_worker" => 8.0440625e-6, "fibers_same_thread_per_worker" => 0.0002143358125}]
+
+- CRYSTAL_WORKERS=17
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 17, "normal" => 0.000102397, "fibers_any_thread" => 0.000390708, "fibers_same_thread" => 0.000228495, "fibers_any_thread_times_worker" => 0.006642036, "fibers_same_thread_times_worker" => 0.003884415, "fibers_any_thread_per_worker" => 2.2982823529411763e-5, "fibers_same_thread_per_worker" => 1.3440882352941176e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 17, "normal" => 0.002441338, "fibers_any_thread" => 0.000154251, "fibers_same_thread" => 0.00286073, "fibers_any_thread_times_worker" => 0.002622267, "fibers_same_thread_times_worker" => 0.04863241, "fibers_any_thread_per_worker" => 9.073588235294117e-6, "fibers_same_thread_per_worker" => 0.00016827823529411766}]
+
+- CRYSTAL_WORKERS=18
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 18, "normal" => 9.5751e-5, "fibers_any_thread" => 0.00042205, "fibers_same_thread" => 0.000236845, "fibers_any_thread_times_worker" => 0.0075969, "fibers_same_thread_times_worker" => 0.00426321, "fibers_any_thread_per_worker" => 2.3447222222222223e-5, "fibers_same_thread_per_worker" => 1.3158055555555556e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 18, "normal" => 0.003014368, "fibers_any_thread" => 0.000402028, "fibers_same_thread" => 0.003397101, "fibers_any_thread_times_worker" => 0.007236504, "fibers_same_thread_times_worker" => 0.061147818, "fibers_any_thread_per_worker" => 2.233488888888889e-5, "fibers_same_thread_per_worker" => 0.00018872783333333333}]
+
+- CRYSTAL_WORKERS=19
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 19, "normal" => 9.8078e-5, "fibers_any_thread" => 0.000423845, "fibers_same_thread" => 0.000207299, "fibers_any_thread_times_worker" => 0.008053055, "fibers_same_thread_times_worker" => 0.003938681, "fibers_any_thread_per_worker" => 2.230763157894737e-5, "fibers_same_thread_per_worker" => 1.0910473684210527e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 19, "normal" => 0.002476275, "fibers_any_thread" => 0.000902004, "fibers_same_thread" => 0.002224125, "fibers_any_thread_times_worker" => 0.017138076, "fibers_same_thread_times_worker" => 0.042258375, "fibers_any_thread_per_worker" => 4.74738947368421e-5, "fibers_same_thread_per_worker" => 0.00011705921052631579}]
+
+- CRYSTAL_WORKERS=20
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 20, "normal" => 8.8391e-5, "fibers_any_thread" => 0.000436838, "fibers_same_thread" => 0.000219889, "fibers_any_thread_times_worker" => 0.00873676, "fibers_same_thread_times_worker" => 0.00439778, "fibers_any_thread_per_worker" => 2.18419e-5, "fibers_same_thread_per_worker" => 1.099445e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 20, "normal" => 0.002375324, "fibers_any_thread" => 0.001839091, "fibers_same_thread" => 0.00281619, "fibers_any_thread_times_worker" => 0.03678182, "fibers_same_thread_times_worker" => 0.0563238, "fibers_any_thread_per_worker" => 9.195454999999999e-5, "fibers_same_thread_per_worker" => 0.0001408095}]
+
+- CRYSTAL_WORKERS=21
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 21, "normal" => 0.000101728, "fibers_any_thread" => 0.000348349, "fibers_same_thread" => 0.000332619, "fibers_any_thread_times_worker" => 0.007315329000000001, "fibers_same_thread_times_worker" => 0.0069849989999999995, "fibers_any_thread_per_worker" => 1.658804761904762e-5, "fibers_same_thread_per_worker" => 1.5839e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 21, "normal" => 0.002866811, "fibers_any_thread" => 0.011101678, "fibers_same_thread" => 0.002101295, "fibers_any_thread_times_worker" => 0.233135238, "fibers_same_thread_times_worker" => 0.044127195, "fibers_any_thread_per_worker" => 0.0005286513333333334, "fibers_same_thread_per_worker" => 0.00010006166666666667}]
+
+- CRYSTAL_WORKERS=22
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 22, "normal" => 9.7959e-5, "fibers_any_thread" => 0.000441705, "fibers_same_thread" => 0.000233186, "fibers_any_thread_times_worker" => 0.009717509999999999, "fibers_same_thread_times_worker" => 0.005130092, "fibers_any_thread_per_worker" => 2.00775e-5, "fibers_same_thread_per_worker" => 1.0599363636363637e-5}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 22, "normal" => 0.001976359, "fibers_any_thread" => 9.6869e-5, "fibers_same_thread" => 0.002608533, "fibers_any_thread_times_worker" => 0.002131118, "fibers_same_thread_times_worker" => 0.057387726, "fibers_any_thread_per_worker" => 4.403136363636363e-6, "fibers_same_thread_per_worker" => 0.00011856968181818182}]
+
+- CRYSTAL_WORKERS=23
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 23, "normal" => 8.4273e-5, "fibers_any_thread" => 0.000204283, "fibers_same_thread" => 0.000184325, "fibers_any_thread_times_worker" => 0.004698509, "fibers_same_thread_times_worker" => 0.0042394749999999995, "fibers_any_thread_per_worker" => 8.881869565217392e-6, "fibers_same_thread_per_worker" => 8.014130434782609e-6}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 23, "normal" => 0.001681755, "fibers_any_thread" => 6.6753e-5, "fibers_same_thread" => 0.002759195, "fibers_any_thread_times_worker" => 0.001535319, "fibers_same_thread_times_worker" => 0.063461485, "fibers_any_thread_per_worker" => 2.902304347826087e-6, "fibers_same_thread_per_worker" => 0.000119965}]
+
+- CRYSTAL_WORKERS=24
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 24, "normal" => 7.9214e-5, "fibers_any_thread" => 0.000199935, "fibers_same_thread" => 0.000197964, "fibers_any_thread_times_worker" => 0.004798439999999999, "fibers_same_thread_times_worker" => 0.0047511359999999996, "fibers_any_thread_per_worker" => 8.330625e-6, "fibers_same_thread_per_worker" => 8.248499999999999e-6}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 24, "normal" => 0.001491876, "fibers_any_thread" => 8.5327e-5, "fibers_same_thread" => 0.003417323, "fibers_any_thread_times_worker" => 0.002047848, "fibers_same_thread_times_worker" => 0.082015752, "fibers_any_thread_per_worker" => 3.5552916666666667e-6, "fibers_same_thread_per_worker" => 0.00014238845833333333}]
+
+- CRYSTAL_WORKERS=25
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 25, "normal" => 8.8254e-5, "fibers_any_thread" => 0.000277367, "fibers_same_thread" => 0.000226196, "fibers_any_thread_times_worker" => 0.006934175, "fibers_same_thread_times_worker" => 0.0056549, "fibers_any_thread_per_worker" => 1.109468e-5, "fibers_same_thread_per_worker" => 9.04784e-6}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 25, "normal" => 0.00194173, "fibers_any_thread" => 0.000169461, "fibers_same_thread" => 0.003483688, "fibers_any_thread_times_worker" => 0.0042365250000000005, "fibers_same_thread_times_worker" => 0.0870922, "fibers_any_thread_per_worker" => 6.7784400000000004e-6, "fibers_same_thread_per_worker" => 0.00013934752}]
+
+- CRYSTAL_WORKERS=26
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 26, "normal" => 8.422e-5, "fibers_any_thread" => 0.000205467, "fibers_same_thread" => 0.000220044, "fibers_any_thread_times_worker" => 0.005342142, "fibers_same_thread_times_worker" => 0.005721144, "fibers_any_thread_per_worker" => 7.902576923076923e-6, "fibers_same_thread_per_worker" => 8.46323076923077e-6}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 26, "normal" => 0.001628575, "fibers_any_thread" => 7.4048e-5, "fibers_same_thread" => 0.003088153, "fibers_any_thread_times_worker" => 0.001925248, "fibers_same_thread_times_worker" => 0.080291978, "fibers_any_thread_per_worker" => 2.848e-6, "fibers_same_thread_per_worker" => 0.0001187751153846154}]
+
+- CRYSTAL_WORKERS=27
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 27, "normal" => 0.000104222, "fibers_any_thread" => 0.00025847, "fibers_same_thread" => 0.000223848, "fibers_any_thread_times_worker" => 0.00697869, "fibers_same_thread_times_worker" => 0.006043896, "fibers_any_thread_per_worker" => 9.572962962962963e-6, "fibers_same_thread_per_worker" => 8.290666666666667e-6}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 27, "normal" => 0.001927133, "fibers_any_thread" => 0.000169915, "fibers_same_thread" => 0.003179649, "fibers_any_thread_times_worker" => 0.004587705, "fibers_same_thread_times_worker" => 0.085850523, "fibers_any_thread_per_worker" => 6.293148148148148e-6, "fibers_same_thread_per_worker" => 0.00011776477777777778}]
+
+- CRYSTAL_WORKERS=28
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 28, "normal" => 7.7461e-5, "fibers_any_thread" => 0.000220537, "fibers_same_thread" => 0.000268871, "fibers_any_thread_times_worker" => 0.006175036, "fibers_same_thread_times_worker" => 0.0075283880000000004, "fibers_any_thread_per_worker" => 7.87632142857143e-6, "fibers_same_thread_per_worker" => 9.602535714285714e-6}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 28, "normal" => 0.00156702, "fibers_any_thread" => 8.2645e-5, "fibers_same_thread" => 0.002927388, "fibers_any_thread_times_worker" => 0.00231406, "fibers_same_thread_times_worker" => 0.081966864, "fibers_any_thread_per_worker" => 2.9516071428571432e-6, "fibers_same_thread_per_worker" => 0.00010454957142857143}]
+
+- CRYSTAL_WORKERS=29
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 29, "normal" => 7.4407e-5, "fibers_any_thread" => 0.000243393, "fibers_same_thread" => 0.000241988, "fibers_any_thread_times_worker" => 0.007058397, "fibers_same_thread_times_worker" => 0.007017652, "fibers_any_thread_per_worker" => 8.392862068965517e-6, "fibers_same_thread_per_worker" => 8.344413793103449e-6}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 29, "normal" => 0.001677571, "fibers_any_thread" => 0.000107492, "fibers_same_thread" => 0.0034119, "fibers_any_thread_times_worker" => 0.003117268, "fibers_same_thread_times_worker" => 0.0989451, "fibers_any_thread_per_worker" => 3.706620689655172e-6, "fibers_same_thread_per_worker" => 0.00011765172413793103}]
+
+- CRYSTAL_WORKERS=30
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 30, "normal" => 8.2931e-5, "fibers_any_thread" => 0.000303628, "fibers_same_thread" => 0.000242665, "fibers_any_thread_times_worker" => 0.00910884, "fibers_same_thread_times_worker" => 0.00727995, "fibers_any_thread_per_worker" => 1.0120933333333333e-5, "fibers_same_thread_per_worker" => 8.088833333333333e-6}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 30, "normal" => 0.002623535, "fibers_any_thread" => 0.000187848, "fibers_same_thread" => 0.002924186, "fibers_any_thread_times_worker" => 0.00563544, "fibers_same_thread_times_worker" => 0.08772558, "fibers_any_thread_per_worker" => 6.2616e-6, "fibers_same_thread_per_worker" => 9.747286666666667e-5}]
+
+- CRYSTAL_WORKERS=31
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 31, "normal" => 7.2471e-5, "fibers_any_thread" => 0.000213185, "fibers_same_thread" => 0.000189646, "fibers_any_thread_times_worker" => 0.006608735, "fibers_same_thread_times_worker" => 0.005879026, "fibers_any_thread_per_worker" => 6.876935483870968e-6, "fibers_same_thread_per_worker" => 6.117612903225806e-6}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 31, "normal" => 0.002021074, "fibers_any_thread" => 9.9578e-5, "fibers_same_thread" => 0.002366674, "fibers_any_thread_times_worker" => 0.003086918, "fibers_same_thread_times_worker" => 0.073366894, "fibers_any_thread_per_worker" => 3.212193548387097e-6, "fibers_same_thread_per_worker" => 7.634432258064517e-5}]
+
+- CRYSTAL_WORKERS=32
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "array_360", "env_crystal_workers" => 32, "normal" => 7.1268e-5, "fibers_any_thread" => 0.000257492, "fibers_same_thread" => 0.000231472, "fibers_any_thread_times_worker" => 0.008239744, "fibers_same_thread_times_worker" => 0.007407104, "fibers_any_thread_per_worker" => 8.046625e-6, "fibers_same_thread_per_worker" => 7.2335e-6}, {"batch_timestamp" => "2019-10-20 16:45:58 UTC", "qty_loops" => 20, "title" => "fib", "env_crystal_workers" => 32, "normal" => 0.002304726, "fibers_any_thread" => 0.000127364, "fibers_same_thread" => 0.003068502, "fibers_any_thread_times_worker" => 0.004075648, "fibers_same_thread_times_worker" => 0.098192064, "fibers_any_thread_per_worker" => 3.980125e-6, "fibers_same_thread_per_worker" => 9.58906875e-5}]
+
+Crystal 0.31.1 [0e2e1d067] (2019-09-30)
+
+LLVM: 8.0.0
+Default target: x86_64-unknown-linux-gnu
+
+- CRYSTAL_WORKERS=1
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:03 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 1, "normal" => 0.000168565, "fibers_any_thread" => 0.000393277, "fibers_same_thread" => 0.000167191, "fibers_any_thread_times_worker" => 0.000393277, "fibers_same_thread_times_worker" => 0.000167191, "fibers_any_thread_per_worker" => 0.000393277, "fibers_same_thread_per_worker" => 0.000167191}, {"batch_timestamp" => "2019-10-20 16:46:03 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 1, "normal" => 0.177871941, "fibers_any_thread" => 0.160569128, "fibers_same_thread" => 0.162546456, "fibers_any_thread_times_worker" => 0.160569128, "fibers_same_thread_times_worker" => 0.162546456, "fibers_any_thread_per_worker" => 0.160569128, "fibers_same_thread_per_worker" => 0.162546456}]
+
+- CRYSTAL_WORKERS=2
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:04 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 2, "normal" => 0.000229193, "fibers_any_thread" => 0.000432411, "fibers_same_thread" => 0.000326053, "fibers_any_thread_times_worker" => 0.000864822, "fibers_same_thread_times_worker" => 0.000652106, "fibers_any_thread_per_worker" => 0.0002162055, "fibers_same_thread_per_worker" => 0.0001630265}, {"batch_timestamp" => "2019-10-20 16:46:04 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 2, "normal" => 0.158053812, "fibers_any_thread" => 0.108210501, "fibers_same_thread" => 0.133794375, "fibers_any_thread_times_worker" => 0.216421002, "fibers_same_thread_times_worker" => 0.26758875, "fibers_any_thread_per_worker" => 0.0541052505, "fibers_same_thread_per_worker" => 0.0668971875}]
+
+- CRYSTAL_WORKERS=3
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:04 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 3, "normal" => 0.000174961, "fibers_any_thread" => 0.000423597, "fibers_same_thread" => 0.000263663, "fibers_any_thread_times_worker" => 0.001270791, "fibers_same_thread_times_worker" => 0.0007909890000000001, "fibers_any_thread_per_worker" => 0.000141199, "fibers_same_thread_per_worker" => 8.788766666666668e-5}, {"batch_timestamp" => "2019-10-20 16:46:04 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 3, "normal" => 0.136134504, "fibers_any_thread" => 0.104476792, "fibers_same_thread" => 0.147059099, "fibers_any_thread_times_worker" => 0.313430376, "fibers_same_thread_times_worker" => 0.44117729699999997, "fibers_any_thread_per_worker" => 0.03482559733333333, "fibers_same_thread_per_worker" => 0.049019699666666666}]
+
+- CRYSTAL_WORKERS=4
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:04 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 4, "normal" => 0.000195236, "fibers_any_thread" => 0.000548864, "fibers_same_thread" => 0.000329861, "fibers_any_thread_times_worker" => 0.002195456, "fibers_same_thread_times_worker" => 0.001319444, "fibers_any_thread_per_worker" => 0.000137216, "fibers_same_thread_per_worker" => 8.246525e-5}, {"batch_timestamp" => "2019-10-20 16:46:04 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 4, "normal" => 0.152663588, "fibers_any_thread" => 0.124163317, "fibers_same_thread" => 0.129387854, "fibers_any_thread_times_worker" => 0.496653268, "fibers_same_thread_times_worker" => 0.517551416, "fibers_any_thread_per_worker" => 0.03104082925, "fibers_same_thread_per_worker" => 0.0323469635}]
+
+- CRYSTAL_WORKERS=5
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:05 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 5, "normal" => 0.000186189, "fibers_any_thread" => 0.00058651, "fibers_same_thread" => 0.000339667, "fibers_any_thread_times_worker" => 0.0029325500000000003, "fibers_same_thread_times_worker" => 0.001698335, "fibers_any_thread_per_worker" => 0.00011730200000000001, "fibers_same_thread_per_worker" => 6.79334e-5}, {"batch_timestamp" => "2019-10-20 16:46:05 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 5, "normal" => 0.123457115, "fibers_any_thread" => 0.101022988, "fibers_same_thread" => 0.144884228, "fibers_any_thread_times_worker" => 0.50511494, "fibers_same_thread_times_worker" => 0.72442114, "fibers_any_thread_per_worker" => 0.0202045976, "fibers_same_thread_per_worker" => 0.028976845600000002}]
+
+- CRYSTAL_WORKERS=6
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:05 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 6, "normal" => 0.000191662, "fibers_any_thread" => 0.00065899, "fibers_same_thread" => 0.000284667, "fibers_any_thread_times_worker" => 0.00395394, "fibers_same_thread_times_worker" => 0.0017080020000000001, "fibers_any_thread_per_worker" => 0.00010983166666666667, "fibers_same_thread_per_worker" => 4.74445e-5}, {"batch_timestamp" => "2019-10-20 16:46:05 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 6, "normal" => 0.154979412, "fibers_any_thread" => 0.128708657, "fibers_same_thread" => 0.155440442, "fibers_any_thread_times_worker" => 0.772251942, "fibers_same_thread_times_worker" => 0.9326426520000001, "fibers_any_thread_per_worker" => 0.021451442833333334, "fibers_same_thread_per_worker" => 0.025906740333333334}]
+
+- CRYSTAL_WORKERS=7
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:06 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 7, "normal" => 0.000278177, "fibers_any_thread" => 0.000598061, "fibers_same_thread" => 0.000434603, "fibers_any_thread_times_worker" => 0.0041864269999999995, "fibers_same_thread_times_worker" => 0.003042221, "fibers_any_thread_per_worker" => 8.543728571428572e-5, "fibers_same_thread_per_worker" => 6.208614285714285e-5}, {"batch_timestamp" => "2019-10-20 16:46:06 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 7, "normal" => 0.142814382, "fibers_any_thread" => 0.045810726, "fibers_same_thread" => 0.162826972, "fibers_any_thread_times_worker" => 0.320675082, "fibers_same_thread_times_worker" => 1.139788804, "fibers_any_thread_per_worker" => 0.006544389428571429, "fibers_same_thread_per_worker" => 0.023260996}]
+
+- CRYSTAL_WORKERS=8
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:06 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 8, "normal" => 0.000177067, "fibers_any_thread" => 0.000490132, "fibers_same_thread" => 0.000414824, "fibers_any_thread_times_worker" => 0.003921056, "fibers_same_thread_times_worker" => 0.003318592, "fibers_any_thread_per_worker" => 6.12665e-5, "fibers_same_thread_per_worker" => 5.1853e-5}, {"batch_timestamp" => "2019-10-20 16:46:06 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 8, "normal" => 0.154005308, "fibers_any_thread" => 0.064313778, "fibers_same_thread" => 0.199237089, "fibers_any_thread_times_worker" => 0.514510224, "fibers_same_thread_times_worker" => 1.593896712, "fibers_any_thread_per_worker" => 0.00803922225, "fibers_same_thread_per_worker" => 0.024904636125}]
+
+- CRYSTAL_WORKERS=9
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:06 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 9, "normal" => 0.000185814, "fibers_any_thread" => 0.000487027, "fibers_same_thread" => 0.000514416, "fibers_any_thread_times_worker" => 0.004383243, "fibers_same_thread_times_worker" => 0.004629744, "fibers_any_thread_per_worker" => 5.411411111111111e-5, "fibers_same_thread_per_worker" => 5.715733333333333e-5}, {"batch_timestamp" => "2019-10-20 16:46:06 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 9, "normal" => 0.16424536, "fibers_any_thread" => 0.032626093, "fibers_same_thread" => 0.218069278, "fibers_any_thread_times_worker" => 0.29363483700000004, "fibers_same_thread_times_worker" => 1.962623502, "fibers_any_thread_per_worker" => 0.0036251214444444446, "fibers_same_thread_per_worker" => 0.02422991977777778}]
+
+- CRYSTAL_WORKERS=10
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:07 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 10, "normal" => 0.000180878, "fibers_any_thread" => 0.000860742, "fibers_same_thread" => 0.00032663, "fibers_any_thread_times_worker" => 0.00860742, "fibers_same_thread_times_worker" => 0.0032663, "fibers_any_thread_per_worker" => 8.607419999999999e-5, "fibers_same_thread_per_worker" => 3.2663e-5}, {"batch_timestamp" => "2019-10-20 16:46:07 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 10, "normal" => 0.128351998, "fibers_any_thread" => 0.119633099, "fibers_same_thread" => 0.152960645, "fibers_any_thread_times_worker" => 1.19633099, "fibers_same_thread_times_worker" => 1.5296064500000002, "fibers_any_thread_per_worker" => 0.0119633099, "fibers_same_thread_per_worker" => 0.015296064500000001}]
+
+- CRYSTAL_WORKERS=11
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:07 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 11, "normal" => 0.000182284, "fibers_any_thread" => 0.00051094, "fibers_same_thread" => 0.000518316, "fibers_any_thread_times_worker" => 0.00562034, "fibers_same_thread_times_worker" => 0.0057014760000000005, "fibers_any_thread_per_worker" => 4.6449090909090906e-5, "fibers_same_thread_per_worker" => 4.711963636363636e-5}, {"batch_timestamp" => "2019-10-20 16:46:07 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 11, "normal" => 0.165201706, "fibers_any_thread" => 0.043592324, "fibers_same_thread" => 0.248265111, "fibers_any_thread_times_worker" => 0.479515564, "fibers_same_thread_times_worker" => 2.730916221, "fibers_any_thread_per_worker" => 0.003962938545454545, "fibers_same_thread_per_worker" => 0.022569555545454548}]
+
+- CRYSTAL_WORKERS=12
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:08 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 12, "normal" => 0.000208239, "fibers_any_thread" => 0.000667677, "fibers_same_thread" => 0.00057542, "fibers_any_thread_times_worker" => 0.008012123999999999, "fibers_same_thread_times_worker" => 0.0069050399999999994, "fibers_any_thread_per_worker" => 5.563975e-5, "fibers_same_thread_per_worker" => 4.7951666666666664e-5}, {"batch_timestamp" => "2019-10-20 16:46:08 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 12, "normal" => 0.148268192, "fibers_any_thread" => 0.111112943, "fibers_same_thread" => 0.14220416, "fibers_any_thread_times_worker" => 1.333355316, "fibers_same_thread_times_worker" => 1.7064499199999998, "fibers_any_thread_per_worker" => 0.009259411916666667, "fibers_same_thread_per_worker" => 0.011850346666666666}]
+
+- CRYSTAL_WORKERS=13
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:08 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 13, "normal" => 0.000170416, "fibers_any_thread" => 0.000661307, "fibers_same_thread" => 0.000474088, "fibers_any_thread_times_worker" => 0.008596991, "fibers_same_thread_times_worker" => 0.006163144, "fibers_any_thread_per_worker" => 5.086976923076923e-5, "fibers_same_thread_per_worker" => 3.646830769230769e-5}, {"batch_timestamp" => "2019-10-20 16:46:08 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 13, "normal" => 0.161914778, "fibers_any_thread" => 0.020303992, "fibers_same_thread" => 0.254778795, "fibers_any_thread_times_worker" => 0.263951896, "fibers_same_thread_times_worker" => 3.312124335, "fibers_any_thread_per_worker" => 0.0015618455384615385, "fibers_same_thread_per_worker" => 0.019598368846153846}]
+
+- CRYSTAL_WORKERS=14
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:09 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 14, "normal" => 0.000216353, "fibers_any_thread" => 0.000788019, "fibers_same_thread" => 0.000493901, "fibers_any_thread_times_worker" => 0.011032266, "fibers_same_thread_times_worker" => 0.006914614, "fibers_any_thread_per_worker" => 5.628707142857143e-5, "fibers_same_thread_per_worker" => 3.527864285714286e-5}, {"batch_timestamp" => "2019-10-20 16:46:09 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 14, "normal" => 0.179352681, "fibers_any_thread" => 0.055904401, "fibers_same_thread" => 0.1762431, "fibers_any_thread_times_worker" => 0.782661614, "fibers_same_thread_times_worker" => 2.4674034000000002, "fibers_any_thread_per_worker" => 0.0039931715, "fibers_same_thread_per_worker" => 0.012588792857142858}]
+
+- CRYSTAL_WORKERS=15
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:09 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 15, "normal" => 0.000193546, "fibers_any_thread" => 0.000906223, "fibers_same_thread" => 0.000282674, "fibers_any_thread_times_worker" => 0.013593345, "fibers_same_thread_times_worker" => 0.00424011, "fibers_any_thread_per_worker" => 6.041486666666666e-5, "fibers_same_thread_per_worker" => 1.8844933333333333e-5}, {"batch_timestamp" => "2019-10-20 16:46:09 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 15, "normal" => 0.149231587, "fibers_any_thread" => 0.135507951, "fibers_same_thread" => 0.163152561, "fibers_any_thread_times_worker" => 2.0326192649999997, "fibers_same_thread_times_worker" => 2.447288415, "fibers_any_thread_per_worker" => 0.0090338634, "fibers_same_thread_per_worker" => 0.0108768374}]
+
+- CRYSTAL_WORKERS=16
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:09 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 16, "normal" => 0.000180882, "fibers_any_thread" => 0.000738471, "fibers_same_thread" => 0.000346784, "fibers_any_thread_times_worker" => 0.011815536, "fibers_same_thread_times_worker" => 0.005548544, "fibers_any_thread_per_worker" => 4.61544375e-5, "fibers_same_thread_per_worker" => 2.1674e-5}, {"batch_timestamp" => "2019-10-20 16:46:09 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 16, "normal" => 0.187103194, "fibers_any_thread" => 0.00581625, "fibers_same_thread" => 0.264746582, "fibers_any_thread_times_worker" => 0.09306, "fibers_same_thread_times_worker" => 4.235945312, "fibers_any_thread_per_worker" => 0.000363515625, "fibers_same_thread_per_worker" => 0.016546661375}]
+
+- CRYSTAL_WORKERS=17
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:10 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 17, "normal" => 0.000182735, "fibers_any_thread" => 0.000565492, "fibers_same_thread" => 0.000583012, "fibers_any_thread_times_worker" => 0.009613364000000001, "fibers_same_thread_times_worker" => 0.009911204000000002, "fibers_any_thread_per_worker" => 3.326423529411765e-5, "fibers_same_thread_per_worker" => 3.4294823529411766e-5}, {"batch_timestamp" => "2019-10-20 16:46:10 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 17, "normal" => 0.139159363, "fibers_any_thread" => 0.011228628, "fibers_same_thread" => 0.284577087, "fibers_any_thread_times_worker" => 0.19088667599999998, "fibers_same_thread_times_worker" => 4.837810479, "fibers_any_thread_per_worker" => 0.0006605075294117647, "fibers_same_thread_per_worker" => 0.016739828647058825}]
+
+- CRYSTAL_WORKERS=18
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:10 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 18, "normal" => 0.000176723, "fibers_any_thread" => 0.000726406, "fibers_same_thread" => 0.000561649, "fibers_any_thread_times_worker" => 0.013075307999999999, "fibers_same_thread_times_worker" => 0.010109682, "fibers_any_thread_per_worker" => 4.035588888888889e-5, "fibers_same_thread_per_worker" => 3.120272222222222e-5}, {"batch_timestamp" => "2019-10-20 16:46:10 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 18, "normal" => 0.162937964, "fibers_any_thread" => 0.036928059, "fibers_same_thread" => 0.297333743, "fibers_any_thread_times_worker" => 0.664705062, "fibers_same_thread_times_worker" => 5.352007373999999, "fibers_any_thread_per_worker" => 0.002051558833333333, "fibers_same_thread_per_worker" => 0.016518541277777778}]
+
+- CRYSTAL_WORKERS=19
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:11 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 19, "normal" => 0.000176365, "fibers_any_thread" => 0.00048165, "fibers_same_thread" => 0.000785305, "fibers_any_thread_times_worker" => 0.00915135, "fibers_same_thread_times_worker" => 0.014920795, "fibers_any_thread_per_worker" => 2.5350000000000003e-5, "fibers_same_thread_per_worker" => 4.133184210526316e-5}, {"batch_timestamp" => "2019-10-20 16:46:11 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 19, "normal" => 0.142466438, "fibers_any_thread" => 0.067853214, "fibers_same_thread" => 0.207258757, "fibers_any_thread_times_worker" => 1.289211066, "fibers_same_thread_times_worker" => 3.9379163829999997, "fibers_any_thread_per_worker" => 0.0035712217894736838, "fibers_same_thread_per_worker" => 0.010908355631578947}]
+
+- CRYSTAL_WORKERS=20
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:11 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 20, "normal" => 0.000177526, "fibers_any_thread" => 0.000563787, "fibers_same_thread" => 0.00066186, "fibers_any_thread_times_worker" => 0.01127574, "fibers_same_thread_times_worker" => 0.013237200000000001, "fibers_any_thread_per_worker" => 2.8189349999999998e-5, "fibers_same_thread_per_worker" => 3.3093e-5}, {"batch_timestamp" => "2019-10-20 16:46:11 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 20, "normal" => 0.186078543, "fibers_any_thread" => 0.1367067, "fibers_same_thread" => 0.156221736, "fibers_any_thread_times_worker" => 2.7341339999999996, "fibers_same_thread_times_worker" => 3.12443472, "fibers_any_thread_per_worker" => 0.006835335, "fibers_same_thread_per_worker" => 0.0078110868}]
+
+- CRYSTAL_WORKERS=21
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:12 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 21, "normal" => 0.000183249, "fibers_any_thread" => 0.000719933, "fibers_same_thread" => 0.000515424, "fibers_any_thread_times_worker" => 0.015118593, "fibers_same_thread_times_worker" => 0.010823904, "fibers_any_thread_per_worker" => 3.4282523809523806e-5, "fibers_same_thread_per_worker" => 2.4544e-5}, {"batch_timestamp" => "2019-10-20 16:46:12 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 21, "normal" => 0.155474575, "fibers_any_thread" => 0.000156579, "fibers_same_thread" => 0.247229142, "fibers_any_thread_times_worker" => 0.003288159, "fibers_same_thread_times_worker" => 5.191811982, "fibers_any_thread_per_worker" => 7.456142857142858e-6, "fibers_same_thread_per_worker" => 0.011772816285714286}]
+
+- CRYSTAL_WORKERS=22
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:12 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 22, "normal" => 0.000197731, "fibers_any_thread" => 0.000712301, "fibers_same_thread" => 0.000567695, "fibers_any_thread_times_worker" => 0.015670622000000002, "fibers_same_thread_times_worker" => 0.01248929, "fibers_any_thread_per_worker" => 3.2377318181818185e-5, "fibers_same_thread_per_worker" => 2.5804318181818182e-5}, {"batch_timestamp" => "2019-10-20 16:46:12 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 22, "normal" => 0.16418426, "fibers_any_thread" => 0.000174363, "fibers_same_thread" => 0.306892383, "fibers_any_thread_times_worker" => 0.003835986, "fibers_same_thread_times_worker" => 6.751632426, "fibers_any_thread_per_worker" => 7.92559090909091e-6, "fibers_same_thread_per_worker" => 0.013949653772727272}]
+
+- CRYSTAL_WORKERS=23
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:13 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 23, "normal" => 0.000240612, "fibers_any_thread" => 0.000842971, "fibers_same_thread" => 0.000452971, "fibers_any_thread_times_worker" => 0.019388333, "fibers_same_thread_times_worker" => 0.010418333, "fibers_any_thread_per_worker" => 3.665091304347826e-5, "fibers_same_thread_per_worker" => 1.9694391304347826e-5}, {"batch_timestamp" => "2019-10-20 16:46:13 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 23, "normal" => 0.153707732, "fibers_any_thread" => 0.000575614, "fibers_same_thread" => 0.280884047, "fibers_any_thread_times_worker" => 0.013239122, "fibers_same_thread_times_worker" => 6.460333081000001, "fibers_any_thread_per_worker" => 2.5026695652173914e-5, "fibers_same_thread_per_worker" => 0.01221234986956522}]
+
+- CRYSTAL_WORKERS=24
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:13 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 24, "normal" => 0.000199016, "fibers_any_thread" => 0.000707609, "fibers_same_thread" => 0.000376296, "fibers_any_thread_times_worker" => 0.016982616, "fibers_same_thread_times_worker" => 0.009031104, "fibers_any_thread_per_worker" => 2.9483708333333332e-5, "fibers_same_thread_per_worker" => 1.5679e-5}, {"batch_timestamp" => "2019-10-20 16:46:13 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 24, "normal" => 0.176403877, "fibers_any_thread" => 0.001330697, "fibers_same_thread" => 0.310456278, "fibers_any_thread_times_worker" => 0.031936728, "fibers_same_thread_times_worker" => 7.450950671999999, "fibers_any_thread_per_worker" => 5.5445708333333335e-5, "fibers_same_thread_per_worker" => 0.012935678249999999}]
+
+- CRYSTAL_WORKERS=25
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:14 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 25, "normal" => 0.000223378, "fibers_any_thread" => 0.000839412, "fibers_same_thread" => 0.000373295, "fibers_any_thread_times_worker" => 0.0209853, "fibers_same_thread_times_worker" => 0.009332375, "fibers_any_thread_per_worker" => 3.357648e-5, "fibers_same_thread_per_worker" => 1.49318e-5}, {"batch_timestamp" => "2019-10-20 16:46:14 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 25, "normal" => 0.185193294, "fibers_any_thread" => 0.00586129, "fibers_same_thread" => 0.267658553, "fibers_any_thread_times_worker" => 0.14653225, "fibers_same_thread_times_worker" => 6.6914638250000005, "fibers_any_thread_per_worker" => 0.00023445159999999998, "fibers_same_thread_per_worker" => 0.01070634212}]
+
+- CRYSTAL_WORKERS=26
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:14 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 26, "normal" => 0.000180063, "fibers_any_thread" => 0.000547663, "fibers_same_thread" => 0.000537619, "fibers_any_thread_times_worker" => 0.014239238, "fibers_same_thread_times_worker" => 0.013978094, "fibers_any_thread_per_worker" => 2.106396153846154e-5, "fibers_same_thread_per_worker" => 2.0677653846153847e-5}, {"batch_timestamp" => "2019-10-20 16:46:14 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 26, "normal" => 0.18361203, "fibers_any_thread" => 0.022016707, "fibers_same_thread" => 0.315321529, "fibers_any_thread_times_worker" => 0.572434382, "fibers_same_thread_times_worker" => 8.198359754, "fibers_any_thread_per_worker" => 0.000846796423076923, "fibers_same_thread_per_worker" => 0.012127751115384614}]
+
+- CRYSTAL_WORKERS=27
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:15 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 27, "normal" => 0.000222897, "fibers_any_thread" => 0.000881477, "fibers_same_thread" => 0.000422035, "fibers_any_thread_times_worker" => 0.023799879, "fibers_same_thread_times_worker" => 0.011394945, "fibers_any_thread_per_worker" => 3.2647296296296296e-5, "fibers_same_thread_per_worker" => 1.5630925925925926e-5}, {"batch_timestamp" => "2019-10-20 16:46:15 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 27, "normal" => 0.168664807, "fibers_any_thread" => 0.035227905, "fibers_same_thread" => 0.242111484, "fibers_any_thread_times_worker" => 0.9511534349999999, "fibers_same_thread_times_worker" => 6.537010068, "fibers_any_thread_per_worker" => 0.001304737222222222, "fibers_same_thread_per_worker" => 0.008967092}]
+
+- CRYSTAL_WORKERS=28
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:15 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 28, "normal" => 0.000178034, "fibers_any_thread" => 0.000634414, "fibers_same_thread" => 0.000503459, "fibers_any_thread_times_worker" => 0.017763592, "fibers_same_thread_times_worker" => 0.014096852000000002, "fibers_any_thread_per_worker" => 2.2657642857142858e-5, "fibers_same_thread_per_worker" => 1.7980678571428574e-5}, {"batch_timestamp" => "2019-10-20 16:46:15 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 28, "normal" => 0.17553492, "fibers_any_thread" => 0.071710966, "fibers_same_thread" => 0.262122437, "fibers_any_thread_times_worker" => 2.007907048, "fibers_same_thread_times_worker" => 7.339428236, "fibers_any_thread_per_worker" => 0.0025611059285714287, "fibers_same_thread_per_worker" => 0.009361515607142856}]
+
+- CRYSTAL_WORKERS=29
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:16 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 29, "normal" => 0.000234706, "fibers_any_thread" => 0.000741998, "fibers_same_thread" => 0.000688632, "fibers_any_thread_times_worker" => 0.021517942, "fibers_same_thread_times_worker" => 0.019970328, "fibers_any_thread_per_worker" => 2.5586137931034482e-5, "fibers_same_thread_per_worker" => 2.374593103448276e-5}, {"batch_timestamp" => "2019-10-20 16:46:16 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 29, "normal" => 0.193077008, "fibers_any_thread" => 0.099498783, "fibers_same_thread" => 0.177681942, "fibers_any_thread_times_worker" => 2.8854647069999997, "fibers_same_thread_times_worker" => 5.152776318, "fibers_any_thread_per_worker" => 0.003430992517241379, "fibers_same_thread_per_worker" => 0.00612696351724138}]
+
+- CRYSTAL_WORKERS=30
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:16 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 30, "normal" => 0.000186459, "fibers_any_thread" => 0.00076285, "fibers_same_thread" => 0.000439075, "fibers_any_thread_times_worker" => 0.0228855, "fibers_same_thread_times_worker" => 0.01317225, "fibers_any_thread_per_worker" => 2.5428333333333335e-5, "fibers_same_thread_per_worker" => 1.4635833333333333e-5}, {"batch_timestamp" => "2019-10-20 16:46:16 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 30, "normal" => 0.181274736, "fibers_any_thread" => 0.172529502, "fibers_same_thread" => 0.198581301, "fibers_any_thread_times_worker" => 5.17588506, "fibers_same_thread_times_worker" => 5.95743903, "fibers_any_thread_per_worker" => 0.0057509834000000004, "fibers_same_thread_per_worker" => 0.0066193766999999995}]
+
+- CRYSTAL_WORKERS=31
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:17 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 31, "normal" => 0.000190348, "fibers_any_thread" => 0.000353075, "fibers_same_thread" => 0.000921658, "fibers_any_thread_times_worker" => 0.010945325, "fibers_same_thread_times_worker" => 0.028571398, "fibers_any_thread_per_worker" => 1.1389516129032258e-5, "fibers_same_thread_per_worker" => 2.9730903225806453e-5}, {"batch_timestamp" => "2019-10-20 16:46:17 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 31, "normal" => 0.194246044, "fibers_any_thread" => 0.000121767, "fibers_same_thread" => 0.304638186, "fibers_any_thread_times_worker" => 0.003774777, "fibers_same_thread_times_worker" => 9.443783766, "fibers_any_thread_per_worker" => 3.927967741935484e-6, "fibers_same_thread_per_worker" => 0.009827038258064516}]
+
+- CRYSTAL_WORKERS=32
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:17 UTC", "qty_loops" => 30, "title" => "array_360", "env_crystal_workers" => 32, "normal" => 0.000206787, "fibers_any_thread" => 0.00067139, "fibers_same_thread" => 0.000576546, "fibers_any_thread_times_worker" => 0.02148448, "fibers_same_thread_times_worker" => 0.018449472, "fibers_any_thread_per_worker" => 2.09809375e-5, "fibers_same_thread_per_worker" => 1.80170625e-5}, {"batch_timestamp" => "2019-10-20 16:46:17 UTC", "qty_loops" => 30, "title" => "fib", "env_crystal_workers" => 32, "normal" => 0.189295959, "fibers_any_thread" => 0.000131775, "fibers_same_thread" => 0.36424249, "fibers_any_thread_times_worker" => 0.0042168, "fibers_same_thread_times_worker" => 11.65575968, "fibers_any_thread_per_worker" => 4.11796875e-6, "fibers_same_thread_per_worker" => 0.0113825778125}]
+
+Crystal 0.31.1 [0e2e1d067] (2019-09-30)
+
+LLVM: 8.0.0
+Default target: x86_64-unknown-linux-gnu
+
+- CRYSTAL_WORKERS=1
+
+- CRYSTAL_WORKERS=2
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:46:56 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 2, "normal" => 0.001351413, "fibers_any_thread" => 0.002114527, "fibers_same_thread" => 0.001713822, "fibers_any_thread_times_worker" => 0.004229054, "fibers_same_thread_times_worker" => 0.003427644, "fibers_any_thread_per_worker" => 0.0010572635, "fibers_same_thread_per_worker" => 0.000856911}, {"batch_timestamp" => "2019-10-20 16:46:56 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 2, "normal" => 14.866140329, "fibers_any_thread" => 12.318788888, "fibers_same_thread" => 14.639163355, "fibers_any_thread_times_worker" => 24.637577776, "fibers_same_thread_times_worker" => 29.27832671, "fibers_any_thread_per_worker" => 6.159394444, "fibers_same_thread_per_worker" => 7.3195816775}]
+
+- CRYSTAL_WORKERS=3
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:47:38 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 3, "normal" => 0.000339916, "fibers_any_thread" => 0.000675795, "fibers_same_thread" => 0.000479889, "fibers_any_thread_times_worker" => 0.002027385, "fibers_same_thread_times_worker" => 0.001439667, "fibers_any_thread_per_worker" => 0.000225265, "fibers_same_thread_per_worker" => 0.000159963}, {"batch_timestamp" => "2019-10-20 16:47:38 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 3, "normal" => 16.438721204, "fibers_any_thread" => 5.893373193, "fibers_same_thread" => 19.464862962, "fibers_any_thread_times_worker" => 17.680119579, "fibers_same_thread_times_worker" => 58.39458888600001, "fibers_any_thread_per_worker" => 1.9644577310000002, "fibers_same_thread_per_worker" => 6.4882876540000005}]
+
+- CRYSTAL_WORKERS=4
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:48:20 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 4, "normal" => 0.000358066, "fibers_any_thread" => 0.000771581, "fibers_same_thread" => 0.000465317, "fibers_any_thread_times_worker" => 0.003086324, "fibers_same_thread_times_worker" => 0.001861268, "fibers_any_thread_per_worker" => 0.00019289525, "fibers_same_thread_per_worker" => 0.00011632925}, {"batch_timestamp" => "2019-10-20 16:48:20 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 4, "normal" => 16.17018643, "fibers_any_thread" => 11.973228914, "fibers_same_thread" => 15.310757891, "fibers_any_thread_times_worker" => 47.892915656, "fibers_same_thread_times_worker" => 61.243031564, "fibers_any_thread_per_worker" => 2.9933072285, "fibers_same_thread_per_worker" => 3.82768947275}]
+
+- CRYSTAL_WORKERS=5
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:49:04 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 5, "normal" => 0.000342339, "fibers_any_thread" => 0.00091791, "fibers_same_thread" => 0.000500592, "fibers_any_thread_times_worker" => 0.0045895499999999995, "fibers_same_thread_times_worker" => 0.0025029600000000003, "fibers_any_thread_per_worker" => 0.000183582, "fibers_same_thread_per_worker" => 0.00010011840000000001}, {"batch_timestamp" => "2019-10-20 16:49:04 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 5, "normal" => 15.578140307, "fibers_any_thread" => 12.81635863, "fibers_same_thread" => 16.875411535, "fibers_any_thread_times_worker" => 64.08179315, "fibers_same_thread_times_worker" => 84.377057675, "fibers_any_thread_per_worker" => 2.563271726, "fibers_same_thread_per_worker" => 3.3750823070000004}]
+
+- CRYSTAL_WORKERS=6
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:49:49 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 6, "normal" => 0.000371669, "fibers_any_thread" => 0.000825368, "fibers_same_thread" => 0.000811366, "fibers_any_thread_times_worker" => 0.0049522080000000005, "fibers_same_thread_times_worker" => 0.004868196, "fibers_any_thread_per_worker" => 0.00013756133333333334, "fibers_same_thread_per_worker" => 0.00013522766666666667}, {"batch_timestamp" => "2019-10-20 16:49:49 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 6, "normal" => 15.640265988, "fibers_any_thread" => 8.665316557, "fibers_same_thread" => 18.644874497, "fibers_any_thread_times_worker" => 51.991899342, "fibers_same_thread_times_worker" => 111.86924698199999, "fibers_any_thread_per_worker" => 1.4442194261666668, "fibers_same_thread_per_worker" => 3.107479082833333}]
+
+- CRYSTAL_WORKERS=7
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:50:32 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 7, "normal" => 0.000324769, "fibers_any_thread" => 0.000960143, "fibers_same_thread" => 0.000722377, "fibers_any_thread_times_worker" => 0.006721001, "fibers_same_thread_times_worker" => 0.005056639, "fibers_any_thread_per_worker" => 0.00013716328571428571, "fibers_same_thread_per_worker" => 0.00010319671428571428}, {"batch_timestamp" => "2019-10-20 16:50:32 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 7, "normal" => 16.685657247, "fibers_any_thread" => 7.38372903, "fibers_same_thread" => 21.5246237, "fibers_any_thread_times_worker" => 51.68610321, "fibers_same_thread_times_worker" => 150.6723659, "fibers_any_thread_per_worker" => 1.0548184328571428, "fibers_same_thread_per_worker" => 3.0749462428571426}]
+
+- CRYSTAL_WORKERS=8
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:51:17 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 8, "normal" => 0.000329846, "fibers_any_thread" => 0.001126939, "fibers_same_thread" => 0.000605243, "fibers_any_thread_times_worker" => 0.009015512, "fibers_same_thread_times_worker" => 0.004841944, "fibers_any_thread_per_worker" => 0.000140867375, "fibers_same_thread_per_worker" => 7.5655375e-5}, {"batch_timestamp" => "2019-10-20 16:51:17 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 8, "normal" => 16.242310478, "fibers_any_thread" => 14.529366857, "fibers_same_thread" => 16.75163111, "fibers_any_thread_times_worker" => 116.234934856, "fibers_same_thread_times_worker" => 134.01304888, "fibers_any_thread_per_worker" => 1.816170857125, "fibers_same_thread_per_worker" => 2.09395388875}]
+
+- CRYSTAL_WORKERS=9
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:52:05 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 9, "normal" => 0.000332724, "fibers_any_thread" => 0.001314211, "fibers_same_thread" => 0.000612819, "fibers_any_thread_times_worker" => 0.011827899, "fibers_same_thread_times_worker" => 0.005515371, "fibers_any_thread_per_worker" => 0.00014602344444444444, "fibers_same_thread_per_worker" => 6.8091e-5}, {"batch_timestamp" => "2019-10-20 16:52:05 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 9, "normal" => 16.056125181, "fibers_any_thread" => 1.602361685, "fibers_same_thread" => 29.110614499, "fibers_any_thread_times_worker" => 14.421255165, "fibers_same_thread_times_worker" => 261.995530491, "fibers_any_thread_per_worker" => 0.17804018722222223, "fibers_same_thread_per_worker" => 3.234512722111111}]
+
+- CRYSTAL_WORKERS=10
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:52:52 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 10, "normal" => 0.000334402, "fibers_any_thread" => 0.001437545, "fibers_same_thread" => 0.000726158, "fibers_any_thread_times_worker" => 0.01437545, "fibers_same_thread_times_worker" => 0.00726158, "fibers_any_thread_per_worker" => 0.0001437545, "fibers_same_thread_per_worker" => 7.26158e-5}, {"batch_timestamp" => "2019-10-20 16:52:52 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 10, "normal" => 16.306341205, "fibers_any_thread" => 14.718661207, "fibers_same_thread" => 17.759824984, "fibers_any_thread_times_worker" => 147.18661207, "fibers_same_thread_times_worker" => 177.59824984000002, "fibers_any_thread_per_worker" => 1.4718661207000001, "fibers_same_thread_per_worker" => 1.7759824984}]
+
+- CRYSTAL_WORKERS=11
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:53:40 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 11, "normal" => 0.000325207, "fibers_any_thread" => 0.001013991, "fibers_same_thread" => 0.000857401, "fibers_any_thread_times_worker" => 0.011153900999999999, "fibers_same_thread_times_worker" => 0.009431411, "fibers_any_thread_per_worker" => 9.218099999999999e-5, "fibers_same_thread_per_worker" => 7.794554545454546e-5}, {"batch_timestamp" => "2019-10-20 16:53:40 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 11, "normal" => 16.552906926, "fibers_any_thread" => 8.155197685, "fibers_same_thread" => 21.916623859, "fibers_any_thread_times_worker" => 89.707174535, "fibers_same_thread_times_worker" => 241.082862449, "fibers_any_thread_per_worker" => 0.7413816077272727, "fibers_same_thread_per_worker" => 1.992420350818182}]
+
+- CRYSTAL_WORKERS=12
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:54:27 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 12, "normal" => 0.000332751, "fibers_any_thread" => 0.001315755, "fibers_same_thread" => 0.000749209, "fibers_any_thread_times_worker" => 0.01578906, "fibers_same_thread_times_worker" => 0.008990508000000001, "fibers_any_thread_per_worker" => 0.00010964625, "fibers_same_thread_per_worker" => 6.243408333333334e-5}, {"batch_timestamp" => "2019-10-20 16:54:27 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 12, "normal" => 16.541171849, "fibers_any_thread" => 1.897596524, "fibers_same_thread" => 29.312687919, "fibers_any_thread_times_worker" => 22.771158288, "fibers_same_thread_times_worker" => 351.752255028, "fibers_any_thread_per_worker" => 0.15813304366666667, "fibers_same_thread_per_worker" => 2.44272399325}]
+
+- CRYSTAL_WORKERS=13
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:55:15 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 13, "normal" => 0.000315254, "fibers_any_thread" => 0.001200601, "fibers_same_thread" => 0.000804401, "fibers_any_thread_times_worker" => 0.015607812999999998, "fibers_same_thread_times_worker" => 0.010457213, "fibers_any_thread_per_worker" => 9.235392307692307e-5, "fibers_same_thread_per_worker" => 6.1877e-5}, {"batch_timestamp" => "2019-10-20 16:55:15 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 13, "normal" => 16.612017086, "fibers_any_thread" => 10.310642351, "fibers_same_thread" => 20.596529923, "fibers_any_thread_times_worker" => 134.038350563, "fibers_same_thread_times_worker" => 267.754888999, "fibers_any_thread_per_worker" => 0.7931263346923078, "fibers_same_thread_per_worker" => 1.5843484556153844}]
+
+- CRYSTAL_WORKERS=14
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:56:02 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 14, "normal" => 0.000333918, "fibers_any_thread" => 0.001323622, "fibers_same_thread" => 0.000761638, "fibers_any_thread_times_worker" => 0.018530708, "fibers_same_thread_times_worker" => 0.010662932, "fibers_any_thread_per_worker" => 9.454442857142857e-5, "fibers_same_thread_per_worker" => 5.440271428571429e-5}, {"batch_timestamp" => "2019-10-20 16:56:02 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 14, "normal" => 18.413219813, "fibers_any_thread" => 0.817164393, "fibers_same_thread" => 30.267297268, "fibers_any_thread_times_worker" => 11.440301502, "fibers_same_thread_times_worker" => 423.742161752, "fibers_any_thread_per_worker" => 0.058368885214285716, "fibers_same_thread_per_worker" => 2.161949804857143}]
+
+- CRYSTAL_WORKERS=15
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:56:52 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 15, "normal" => 0.00035009, "fibers_any_thread" => 0.000844402, "fibers_same_thread" => 0.001190316, "fibers_any_thread_times_worker" => 0.01266603, "fibers_same_thread_times_worker" => 0.01785474, "fibers_any_thread_per_worker" => 5.6293466666666666e-5, "fibers_same_thread_per_worker" => 7.93544e-5}, {"batch_timestamp" => "2019-10-20 16:56:52 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 15, "normal" => 17.83781475, "fibers_any_thread" => 6.092074531, "fibers_same_thread" => 26.020629069, "fibers_any_thread_times_worker" => 91.381117965, "fibers_same_thread_times_worker" => 390.30943603500003, "fibers_any_thread_per_worker" => 0.4061383020666666, "fibers_same_thread_per_worker" => 1.7347086046000002}]
+
+- CRYSTAL_WORKERS=16
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:57:42 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 16, "normal" => 0.000360412, "fibers_any_thread" => 0.000999776, "fibers_same_thread" => 0.001171848, "fibers_any_thread_times_worker" => 0.015996416, "fibers_same_thread_times_worker" => 0.018749568, "fibers_any_thread_per_worker" => 6.2486e-5, "fibers_same_thread_per_worker" => 7.32405e-5}, {"batch_timestamp" => "2019-10-20 16:57:42 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 16, "normal" => 16.18294448, "fibers_any_thread" => 15.415060849, "fibers_same_thread" => 16.245894379, "fibers_any_thread_times_worker" => 246.640973584, "fibers_same_thread_times_worker" => 259.934310064, "fibers_any_thread_per_worker" => 0.9634413030625, "fibers_same_thread_per_worker" => 1.0153683986875}]
+
+- CRYSTAL_WORKERS=17
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:58:30 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 17, "normal" => 0.000329785, "fibers_any_thread" => 0.000870379, "fibers_same_thread" => 0.001278851, "fibers_any_thread_times_worker" => 0.014796443, "fibers_same_thread_times_worker" => 0.021740467, "fibers_any_thread_per_worker" => 5.119876470588235e-5, "fibers_same_thread_per_worker" => 7.52265294117647e-5}, {"batch_timestamp" => "2019-10-20 16:58:30 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 17, "normal" => 17.989565338, "fibers_any_thread" => 0.376799225, "fibers_same_thread" => 30.797074872, "fibers_any_thread_times_worker" => 6.405586825, "fibers_same_thread_times_worker" => 523.550272824, "fibers_any_thread_per_worker" => 0.02216466029411765, "fibers_same_thread_per_worker" => 1.8115926395294117}]
+
+- CRYSTAL_WORKERS=18
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 16:59:19 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 18, "normal" => 0.000398259, "fibers_any_thread" => 0.000933642, "fibers_same_thread" => 0.001374926, "fibers_any_thread_times_worker" => 0.016805556, "fibers_same_thread_times_worker" => 0.024748668, "fibers_any_thread_per_worker" => 5.1869e-5, "fibers_same_thread_per_worker" => 7.638477777777778e-5}, {"batch_timestamp" => "2019-10-20 16:59:19 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 18, "normal" => 17.472831809, "fibers_any_thread" => 2.1262863850000002, "fibers_same_thread" => 29.953289084, "fibers_any_thread_times_worker" => 38.273154930000004, "fibers_same_thread_times_worker" => 539.159203512, "fibers_any_thread_per_worker" => 0.1181270213888889, "fibers_same_thread_per_worker" => 1.664071615777778}]
+
+- CRYSTAL_WORKERS=19
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 17:00:08 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 19, "normal" => 0.000338064, "fibers_any_thread" => 0.001584244, "fibers_same_thread" => 0.000679829, "fibers_any_thread_times_worker" => 0.030100636, "fibers_same_thread_times_worker" => 0.012916750999999999, "fibers_any_thread_per_worker" => 8.338126315789473e-5, "fibers_same_thread_per_worker" => 3.578047368421052e-5}, {"batch_timestamp" => "2019-10-20 17:00:08 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 19, "normal" => 16.486924782, "fibers_any_thread" => 6.972257356, "fibers_same_thread" => 24.437058872, "fibers_any_thread_times_worker" => 132.472889764, "fibers_same_thread_times_worker" => 464.30411856800004, "fibers_any_thread_per_worker" => 0.3669609134736842, "fibers_same_thread_per_worker" => 1.286160993263158}]
+
+- CRYSTAL_WORKERS=20
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 17:00:56 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 20, "normal" => 0.000320613, "fibers_any_thread" => 0.001140888, "fibers_same_thread" => 0.008460321, "fibers_any_thread_times_worker" => 0.02281776, "fibers_same_thread_times_worker" => 0.16920642, "fibers_any_thread_per_worker" => 5.7044400000000006e-5, "fibers_same_thread_per_worker" => 0.00042301605}, {"batch_timestamp" => "2019-10-20 17:00:56 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 20, "normal" => 17.744751848, "fibers_any_thread" => 15.874300624, "fibers_same_thread" => 16.934352118, "fibers_any_thread_times_worker" => 317.48601248, "fibers_same_thread_times_worker" => 338.68704235999996, "fibers_any_thread_per_worker" => 0.7937150312, "fibers_same_thread_per_worker" => 0.8467176059}]
+
+- CRYSTAL_WORKERS=21
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 17:01:47 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 21, "normal" => 0.000354416, "fibers_any_thread" => 0.001712216, "fibers_same_thread" => 0.000976036, "fibers_any_thread_times_worker" => 0.035956536, "fibers_same_thread_times_worker" => 0.020496756, "fibers_any_thread_per_worker" => 8.153409523809524e-5, "fibers_same_thread_per_worker" => 4.647790476190476e-5}, {"batch_timestamp" => "2019-10-20 17:01:47 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 21, "normal" => 17.505769916, "fibers_any_thread" => 0.046846228, "fibers_same_thread" => 35.472799155, "fibers_any_thread_times_worker" => 0.983770788, "fibers_same_thread_times_worker" => 744.928782255, "fibers_any_thread_per_worker" => 0.0022307727619047617, "fibers_same_thread_per_worker" => 1.689180912142857}]
+
+- CRYSTAL_WORKERS=22
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 17:02:40 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 22, "normal" => 0.000337465, "fibers_any_thread" => 0.000903532, "fibers_same_thread" => 0.00161663, "fibers_any_thread_times_worker" => 0.019877704, "fibers_same_thread_times_worker" => 0.03556586, "fibers_any_thread_per_worker" => 4.106963636363636e-5, "fibers_same_thread_per_worker" => 7.348318181818182e-5}, {"batch_timestamp" => "2019-10-20 17:02:40 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 22, "normal" => 17.17357697, "fibers_any_thread" => 0.183704857, "fibers_same_thread" => 33.951708882, "fibers_any_thread_times_worker" => 4.041506854, "fibers_same_thread_times_worker" => 746.9375954039999, "fibers_any_thread_per_worker" => 0.008350220772727273, "fibers_same_thread_per_worker" => 1.5432594946363636}]
+
+- CRYSTAL_WORKERS=23
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 17:03:31 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 23, "normal" => 0.000409471, "fibers_any_thread" => 0.001879538, "fibers_same_thread" => 0.001158983, "fibers_any_thread_times_worker" => 0.043229374, "fibers_same_thread_times_worker" => 0.026656608999999998, "fibers_any_thread_per_worker" => 8.171904347826088e-5, "fibers_same_thread_per_worker" => 5.03905652173913e-5}, {"batch_timestamp" => "2019-10-20 17:03:31 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 23, "normal" => 17.661718717, "fibers_any_thread" => 0.718426278, "fibers_same_thread" => 35.690145864, "fibers_any_thread_times_worker" => 16.523804394, "fibers_same_thread_times_worker" => 820.873354872, "fibers_any_thread_per_worker" => 0.031235925130434782, "fibers_same_thread_per_worker" => 1.5517454723478261}]
+
+- CRYSTAL_WORKERS=24
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 17:04:25 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 24, "normal" => 0.000464802, "fibers_any_thread" => 0.000742526, "fibers_same_thread" => 0.001891234, "fibers_any_thread_times_worker" => 0.017820624, "fibers_same_thread_times_worker" => 0.045389616, "fibers_any_thread_per_worker" => 3.093858333333333e-5, "fibers_same_thread_per_worker" => 7.880141666666667e-5}, {"batch_timestamp" => "2019-10-20 17:04:25 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 24, "normal" => 19.649257722, "fibers_any_thread" => 2.421936378, "fibers_same_thread" => 34.893965882, "fibers_any_thread_times_worker" => 58.126473071999996, "fibers_same_thread_times_worker" => 837.4551811680001, "fibers_any_thread_per_worker" => 0.10091401574999999, "fibers_same_thread_per_worker" => 1.4539152450833335}]
+
+- CRYSTAL_WORKERS=25
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 17:05:22 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 25, "normal" => 0.000357606, "fibers_any_thread" => 0.000884874, "fibers_same_thread" => 0.001908832, "fibers_any_thread_times_worker" => 0.022121850000000002, "fibers_same_thread_times_worker" => 0.0477208, "fibers_any_thread_per_worker" => 3.539496e-5, "fibers_same_thread_per_worker" => 7.635328e-5}, {"batch_timestamp" => "2019-10-20 17:05:22 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 25, "normal" => 18.08694418, "fibers_any_thread" => 5.773324728, "fibers_same_thread" => 27.744961776, "fibers_any_thread_times_worker" => 144.3331182, "fibers_same_thread_times_worker" => 693.6240444, "fibers_any_thread_per_worker" => 0.23093298912000002, "fibers_same_thread_per_worker" => 1.10979847104}]
+
+- CRYSTAL_WORKERS=26
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 17:06:14 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 26, "normal" => 0.000338984, "fibers_any_thread" => 0.001098529, "fibers_same_thread" => 0.001681898, "fibers_any_thread_times_worker" => 0.028561754, "fibers_same_thread_times_worker" => 0.043729348, "fibers_any_thread_per_worker" => 4.225111538461538e-5, "fibers_same_thread_per_worker" => 6.468838461538461e-5}, {"batch_timestamp" => "2019-10-20 17:06:14 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 26, "normal" => 18.175367522, "fibers_any_thread" => 11.538083727, "fibers_same_thread" => 22.063199494, "fibers_any_thread_times_worker" => 299.99017690200003, "fibers_same_thread_times_worker" => 573.643186844, "fibers_any_thread_per_worker" => 0.4437724510384615, "fibers_same_thread_per_worker" => 0.8485845959230769}]
+
+- CRYSTAL_WORKERS=27
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 17:07:06 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 27, "normal" => 0.000354042, "fibers_any_thread" => 0.000738065, "fibers_same_thread" => 0.002899335, "fibers_any_thread_times_worker" => 0.019927755, "fibers_same_thread_times_worker" => 0.078282045, "fibers_any_thread_per_worker" => 2.733574074074074e-5, "fibers_same_thread_per_worker" => 0.00010738277777777777}, {"batch_timestamp" => "2019-10-20 17:07:06 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 27, "normal" => 18.558486405, "fibers_any_thread" => 0.000372926, "fibers_same_thread" => 34.699082703, "fibers_any_thread_times_worker" => 0.010069002, "fibers_same_thread_times_worker" => 936.8752329810001, "fibers_any_thread_per_worker" => 1.3812074074074073e-5, "fibers_same_thread_per_worker" => 1.2851512112222223}]
+
+- CRYSTAL_WORKERS=28
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 17:07:59 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 28, "normal" => 0.000337171, "fibers_any_thread" => 0.000829924, "fibers_same_thread" => 0.001755038, "fibers_any_thread_times_worker" => 0.023237872, "fibers_same_thread_times_worker" => 0.049141064, "fibers_any_thread_per_worker" => 2.9640142857142857e-5, "fibers_same_thread_per_worker" => 6.267992857142857e-5}, {"batch_timestamp" => "2019-10-20 17:07:59 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 28, "normal" => 17.989465621, "fibers_any_thread" => 0.001362807, "fibers_same_thread" => 35.20166391, "fibers_any_thread_times_worker" => 0.038158595999999996, "fibers_same_thread_times_worker" => 985.64658948, "fibers_any_thread_per_worker" => 4.867167857142857e-5, "fibers_same_thread_per_worker" => 1.2572022825}]
+
+- CRYSTAL_WORKERS=29
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 17:08:52 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 29, "normal" => 0.000334858, "fibers_any_thread" => 0.001034217, "fibers_same_thread" => 0.00172339, "fibers_any_thread_times_worker" => 0.029992293, "fibers_same_thread_times_worker" => 0.04997831, "fibers_any_thread_per_worker" => 3.56626551724138e-5, "fibers_same_thread_per_worker" => 5.9427241379310344e-5}, {"batch_timestamp" => "2019-10-20 17:08:52 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 29, "normal" => 19.135389116, "fibers_any_thread" => 0.000959399, "fibers_same_thread" => 37.475423829, "fibers_any_thread_times_worker" => 0.027822571, "fibers_same_thread_times_worker" => 1086.7872910410001, "fibers_any_thread_per_worker" => 3.3082724137931035e-5, "fibers_same_thread_per_worker" => 1.2922559941034484}]
+
+- CRYSTAL_WORKERS=30
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 17:09:49 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 30, "normal" => 0.000372642, "fibers_any_thread" => 0.001757063, "fibers_same_thread" => 0.000873257, "fibers_any_thread_times_worker" => 0.05271189, "fibers_same_thread_times_worker" => 0.02619771, "fibers_any_thread_per_worker" => 5.856876666666666e-5, "fibers_same_thread_per_worker" => 2.9108566666666668e-5}, {"batch_timestamp" => "2019-10-20 17:09:49 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 30, "normal" => 20.640322083, "fibers_any_thread" => 0.013811501, "fibers_same_thread" => 38.729864767, "fibers_any_thread_times_worker" => 0.41434503, "fibers_same_thread_times_worker" => 1161.89594301, "fibers_any_thread_per_worker" => 0.0004603833666666667, "fibers_same_thread_per_worker" => 1.2909954922333333}]
+
+- CRYSTAL_WORKERS=31
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 17:10:48 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 31, "normal" => 0.00034021, "fibers_any_thread" => 0.001816216, "fibers_same_thread" => 0.000715936, "fibers_any_thread_times_worker" => 0.056302696, "fibers_same_thread_times_worker" => 0.022194016, "fibers_any_thread_per_worker" => 5.8587612903225805e-5, "fibers_same_thread_per_worker" => 2.3094709677419355e-5}, {"batch_timestamp" => "2019-10-20 17:10:48 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 31, "normal" => 19.068188374000002, "fibers_any_thread" => 0.031015814, "fibers_same_thread" => 37.530643269, "fibers_any_thread_times_worker" => 0.961490234, "fibers_same_thread_times_worker" => 1163.4499413390001, "fibers_any_thread_per_worker" => 0.001000510129032258, "fibers_same_thread_per_worker" => 1.210665911903226}]
+
+- CRYSTAL_WORKERS=32
+
+# array_360:
+
+# fib:
+all_results: [{"batch_timestamp" => "2019-10-20 17:11:45 UTC", "qty_loops" => 40, "title" => "array_360", "env_crystal_workers" => 32, "normal" => 0.000326873, "fibers_any_thread" => 0.001698235, "fibers_same_thread" => 0.000674839, "fibers_any_thread_times_worker" => 0.05434352, "fibers_same_thread_times_worker" => 0.021594848, "fibers_any_thread_per_worker" => 5.306984375e-5, "fibers_same_thread_per_worker" => 2.108871875e-5}, {"batch_timestamp" => "2019-10-20 17:11:45 UTC", "qty_loops" => 40, "title" => "fib", "env_crystal_workers" => 32, "normal" => 18.446074556, "fibers_any_thread" => 0.093519552, "fibers_same_thread" => 36.203906263, "fibers_any_thread_times_worker" => 2.992625664, "fibers_same_thread_times_worker" => 1158.525000416, "fibers_any_thread_per_worker" => 0.002922486, "fibers_same_thread_per_worker" => 1.13137207071875}]
