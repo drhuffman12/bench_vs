@@ -19,7 +19,10 @@ class Bench
       n1 = Array.new(q) {|q| rand() }
       w1 = Array.new(q) {|i| Array.new(q) {|j| rand() } }
       n2 = Array.new(q) { 0.0 }
-      w1.each_with_index {|wrow, i| wrow.each_with_index {|wcell, j| n2[j] += wcell*n1[i] }}
+      # w1.each_with_index {|wrow, i| wrow.each_with_index {|wcell, j| n2[j] += wcell*n1[i] }}
+      w1_row_cnt = w1.size
+      w1_col_cnt = w1.first.size
+      (0...w1_row_cnt).each { |row| (0...w1_col_cnt).each { |col| n2[col] += (w1[row][col])*n1[row] } }
       b = Time.now
       d = time_delta_to_secs(b-a)
       puts "#{d},Crystal,#{Crystal::VERSION}"
@@ -38,7 +41,7 @@ class Bench
   end
 end
 
-if PROGRAM_NAME == $0
+if PROGRAM_NAME == $0 # File.basename(__FILE__)
   qty = (ARGV && ARGV.size > 0 ? ARGV[0] : 0).to_i
   Bench.run(qty)
 end
