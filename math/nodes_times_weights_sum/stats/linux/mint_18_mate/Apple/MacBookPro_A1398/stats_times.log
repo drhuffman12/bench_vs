@@ -13,10 +13,10 @@ CPU family:            6
 Model:                 70
 Model name:            Intel(R) Core(TM) i7-4870HQ CPU @ 2.50GHz
 Stepping:              1
-CPU MHz:               2701.562
+CPU MHz:               2594.335
 CPU max MHz:           3700.0000
 CPU min MHz:           800.0000
-BogoMIPS:              4988.32
+BogoMIPS:              4988.83
 Virtualization:        VT-x
 L1d cache:             32K
 L1i cache:             32K
@@ -27,86 +27,167 @@ NUMA node0 CPU(s):     0-7
 Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts
 
               total        used        free      shared  buff/cache   available
-Mem:          15923         552       14436          60         934       14991
-Swap:         16260           0       16260
-
-stats_previous
+Mem:          15923       10063         465         892        5394        4524
+Swap:         16260          17       16243
 
 
-Warning! PATH is not properly set up, '~/.rvm/gems/ruby-2.3.1@nodes_times_weights_sum/bin' is not at first place,
-         usually this is caused by shell initialization files - check them for 'PATH=...' entries,
-         it might also help to re-add RVM to your dotfiles: 'rvm get stable --auto-dotfiles',
-         to fix temporarily in this shell session run: 'rvm use ruby-2.3.1@nodes_times_weights_sum'.
-Using ~/.rvm/gems/ruby-2.3.1
+
+Using /home/dhuffman/.rvm/gems/ruby-2.3.1
 ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
 
-real	0m0.212s
-user	0m0.204s
+real	0m0.244s
+user	0m0.236s
 sys	0m0.004s
 
-Unknown ruby string (do not know how to handle): jruby-1.7.25.
-jruby-1.7.25 is not installed.
-To install do: 'rvm install jruby-1.7.25'
-ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
-collect.sh: line 60: jruby: command not found
-collect.sh: line 60: jruby: command not found
-collect.sh: line 60: jruby: command not found
-collect.sh: line 60: jruby: command not found
-collect.sh: line 60: jruby: command not found
+Using /home/dhuffman/.rvm/gems/ruby-2.4.0
+ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
 
-real	0m0.001s
-user	0m0.000s
+real	0m0.253s
+user	0m0.236s
+sys	0m0.004s
+
+Using /home/dhuffman/.rvm/gems/jruby-1.7.25
+jruby 1.7.25 (1.9.3p551) 2016-04-13 867cb81 on Java HotSpot(TM) 64-Bit Server VM 9-ea+140 +jit [linux-amd64]
+LoadError: load error: jruby/java/java_ext/java.lang -- java.lang.reflect.InaccessibleObjectException: Cannot make a non-public member of class java.lang.reflect.AccessibleObject accessible
+  require at org/jruby/RubyKernel.java:1040
+   (root) at file:/home/dhuffman/.rvm/rubies/jruby-1.7.25/lib/jruby.jar!/jruby/java/java_ext.rb:3
+  require at org/jruby/RubyKernel.java:1040
+   (root) at file:/home/dhuffman/.rvm/rubies/jruby-1.7.25/lib/jruby.jar!/jruby/java.rb:1
+LoadError: load error: jruby/java/java_ext/java.lang -- java.lang.reflect.InaccessibleObjectException: Cannot make a non-public member of class java.lang.reflect.AccessibleObject accessible
+  require at org/jruby/RubyKernel.java:1040
+   (root) at file:/home/dhuffman/.rvm/rubies/jruby-1.7.25/lib/jruby.jar!/jruby/java/java_ext.rb:3
+  require at org/jruby/RubyKernel.java:1040
+   (root) at file:/home/dhuffman/.rvm/rubies/jruby-1.7.25/lib/jruby.jar!/jruby/java.rb:1
+LoadError: load error: jruby/java/java_ext/java.lang -- java.lang.reflect.InaccessibleObjectException: Cannot make a non-public member of class java.lang.reflect.AccessibleObject accessible
+  require at org/jruby/RubyKernel.java:1040
+   (root) at file:/home/dhuffman/.rvm/rubies/jruby-1.7.25/lib/jruby.jar!/jruby/java/java_ext.rb:3
+  require at org/jruby/RubyKernel.java:1040
+   (root) at file:/home/dhuffman/.rvm/rubies/jruby-1.7.25/lib/jruby.jar!/jruby/java.rb:1
+LoadError: load error: jruby/java/java_ext/java.lang -- java.lang.reflect.InaccessibleObjectException: Cannot make a non-public member of class java.lang.reflect.AccessibleObject accessible
+  require at org/jruby/RubyKernel.java:1040
+   (root) at file:/home/dhuffman/.rvm/rubies/jruby-1.7.25/lib/jruby.jar!/jruby/java/java_ext.rb:3
+  require at org/jruby/RubyKernel.java:1040
+   (root) at file:/home/dhuffman/.rvm/rubies/jruby-1.7.25/lib/jruby.jar!/jruby/java.rb:1
+LoadError: load error: jruby/java/java_ext/java.lang -- java.lang.reflect.InaccessibleObjectException: Cannot make a non-public member of class java.lang.reflect.AccessibleObject accessible
+  require at org/jruby/RubyKernel.java:1040
+   (root) at file:/home/dhuffman/.rvm/rubies/jruby-1.7.25/lib/jruby.jar!/jruby/java/java_ext.rb:3
+  require at org/jruby/RubyKernel.java:1040
+   (root) at file:/home/dhuffman/.rvm/rubies/jruby-1.7.25/lib/jruby.jar!/jruby/java.rb:1
+
+real	0m0.655s
+user	0m1.308s
+sys	0m0.076s
+
+Using /home/dhuffman/.rvm/gems/mruby-1.2.0
+Warning! Executable 'gem' missing, something went wrong with this ruby installation!
+mruby 1.2.0 (2015-11-17) 
+
+real	0m0.008s
+user	0m0.004s
 sys	0m0.000s
 
-Using ~/.rvm/gems/mruby-1.2.0
-Warning! Executable 'gem' missing, something went wrong with this ruby installation!
-mruby 1.2.0 (2015-11-17) 
-
-real	0m2.220s
-user	0m2.188s
-sys	0m0.028s
-
 Crystal 0.18.7 (non-release)
-Crystal 0.18.7 [68783f1] (2016-07-03)
+Crystal 0.20.3 [b1416e2] (2016-12-23)
 
-real	0m0.476s
-user	0m0.388s
-sys	0m0.128s
-
-stats_latest
+real	0m0.782s
+user	0m0.876s
+sys	0m0.124s
 
 
-Using ~/.rvm/gems/ruby-head
-ruby 2.4.0dev (2016-07-01 trunk 55556) [x86_64-linux]
 
-real	0m0.196s
-user	0m0.188s
+Using /home/dhuffman/.rvm/gems/ruby-head
+ruby 2.4.0dev (2016-10-13 trunk 56416) [x86_64-linux]
+
+real	0m0.203s
+user	0m0.196s
 sys	0m0.004s
 
-Using ~/.rvm/gems/jruby-9.1.2.0
-jruby 9.1.2.0 (2.3.0) 2016-05-26 7357c8f Java HotSpot(TM) 64-Bit Server VM 9-ea+126 on 9-ea+126 +jit [linux-x86_64]
+Using /home/dhuffman/.rvm/gems/jruby-9.1.2.0
+jruby 9.1.2.0 (2.3.0) 2016-05-26 7357c8f Java HotSpot(TM) 64-Bit Server VM 9-ea+140 on 9-ea+140 +jit [linux-x86_64]
 LoadError: library `java' could not be loaded: java.lang.reflect.InaccessibleObjectException: Cannot make a non-public member of class java.lang.reflect.AccessibleObject accessible
 LoadError: library `java' could not be loaded: java.lang.reflect.InaccessibleObjectException: Cannot make a non-public member of class java.lang.reflect.AccessibleObject accessible
 LoadError: library `java' could not be loaded: java.lang.reflect.InaccessibleObjectException: Cannot make a non-public member of class java.lang.reflect.AccessibleObject accessible
 LoadError: library `java' could not be loaded: java.lang.reflect.InaccessibleObjectException: Cannot make a non-public member of class java.lang.reflect.AccessibleObject accessible
 LoadError: library `java' could not be loaded: java.lang.reflect.InaccessibleObjectException: Cannot make a non-public member of class java.lang.reflect.AccessibleObject accessible
 
-real	0m0.640s
-user	0m1.368s
+real	0m0.647s
+user	0m1.380s
 sys	0m0.052s
 
-Using ~/.rvm/gems/mruby-head
+mrb
+Using /home/dhuffman/.rvm/gems/mruby-head
 Warning! Executable 'gem' missing, something went wrong with this ruby installation!
 mruby 1.2.0 (2015-11-17) 
+2.182197,mruby,1.2.0
 
-real	0m2.361s
-user	0m2.352s
+real	0m2.400s
+user	0m2.388s
 sys	0m0.008s
 
 Crystal 0.18.7 (release)
 Crystal 0.18.7 [68783f1] (2016-07-03)
 
-real	0m0.016s
+real	0m0.017s
 user	0m0.012s
 sys	0m0.012s
+
+Crystal 0.19.0 (release)
+Crystal 0.19.0 [dcfb2b6] (2016-09-02)
+
+real	0m0.017s
+user	0m0.012s
+sys	0m0.012s
+
+Crystal 0.19.4 (release)
+Crystal 0.19.4 [7f82f79] (2016-10-07)
+
+real	0m0.015s
+user	0m0.020s
+sys	0m0.004s
+
+Crystal 0.20.0 (release)
+Crystal 0.20.0 [b0cc6f7] (2016-11-22)
+
+real	0m0.021s
+user	0m0.028s
+sys	0m0.000s
+
+Crystal 0.20.1 (release)
+Crystal 0.20.1 [18e7617] (2016-12-05)
+
+real	0m0.024s
+user	0m0.028s
+sys	0m0.004s
+
+Crystal 0.20.3 (release)
+Crystal 0.20.3 [b1416e2] (2016-12-23)
+
+real	0m0.019s
+user	0m0.024s
+sys	0m0.000s
+
+Crystal 0.20.4 (release)
+crenv: version `0.20.4' not installed
+Crystal 0.20.3 [b1416e2] (2016-12-23)
+
+real	0m0.021s
+user	0m0.020s
+sys	0m0.008s
+
+minirake
+Using /home/dhuffman/.rvm/gems/ruby-2.3.1
+collect.sh: line 251: ./minirake: No such file or directory
+cp: cannot stat 'tmp/mruby/bin/mruby': No such file or directory
+mv: cannot stat 'mruby/mruby': No such file or directory
+collect.sh: line 259: mruby/bench: No such file or directory
+collect.sh: line 260: mruby/bench: No such file or directory
+collect.sh: line 263: mruby/bench: No such file or directory
+collect.sh: line 263: mruby/bench: No such file or directory
+collect.sh: line 263: mruby/bench: No such file or directory
+collect.sh: line 263: mruby/bench: No such file or directory
+collect.sh: line 263: mruby/bench: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
 

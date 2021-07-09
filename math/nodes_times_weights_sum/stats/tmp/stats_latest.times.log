@@ -1,0 +1,10 @@
+misc times (TODO: merge w/ csv file)
+0.171196406,ruby,2.4.0
+LoadError: library `java' could not be loaded: java.lang.reflect.InaccessibleObjectException: Cannot make a non-public member of class java.lang.reflect.AccessibleObject accessible
+2.707622,mruby,1.2.0
+0.0130508,Crystal,0.18.7
+0.0129144,Crystal,0.19.0
+0.012684,Crystal,0.19.4
+0.0175973,Crystal,0.20.0
+0.0182243,Crystal,0.20.1
+collect.sh: line 227: mruby/bench: No such file or directory

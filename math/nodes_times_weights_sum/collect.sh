@@ -51,9 +51,18 @@ rvm use ruby-2.3.1
 ruby --version
 for VARIABLE in 1 2 3 4 5
 do
-  ruby ruby/bench.rb $QTY >> $LOG_FILE.csv
+  ruby ruby/bench.rb $QTY >> $LOG_FILE.ruby-2.3.1.csv
 done
-time ruby ruby/bench.rb $QTY >> $LOG_FILE.times.log 2>&1
+time ruby ruby/bench.rb $QTY >> $LOG_FILE.ruby-2.3.1.times.log 2>&1
+
+echo
+rvm use ruby-2.4.0
+ruby --version
+for VARIABLE in 1 2 3 4 5
+do
+  ruby ruby/bench.rb $QTY >> $LOG_FILE.ruby-2.4.0.csv
+done
+time ruby ruby/bench.rb $QTY >> $LOG_FILE.ruby-2.4.0.times.log 2>&1
 
 echo
 rvm use jruby-1.7.25
@@ -79,9 +88,9 @@ crenv local 0.18.7
 crystal version
 for VARIABLE in 1 2 3 4 5
 do
-crystal ./crystal/bench.cr $QTY >> $LOG_FILE.csv
+crystal ./crystal/bench.cr $QTY >> $LOG_FILE.0.18.7.csv
 done
-time crystal ./crystal/bench.cr $QTY >> $LOG_FILE.times.log 2>&1
+time crystal ./crystal/bench.cr $QTY >> $LOG_FILE.0.18.7.times.log 2>&1
 
 ## Stats for latest/production versions/mode:
 
@@ -136,13 +145,99 @@ echo "Crystal 0.18.7 (release)"
 
 crenv shell 0.18.7
 crystal version
-crystal build ./crystal/bench.cr --release
+crystal build ./crystal/bench.cr --release # --emit obj --prelude=empty --release
+cp bench ./crystal/bench_0.18.7
 mv bench ./crystal/bench
 for VARIABLE in 1 2 3 4 5
 do
-./crystal/bench $QTY >> $LOG_FILE.csv
+./crystal/bench $QTY >> $LOG_FILE.0.18.7_release.csv
 done
-time ./crystal/bench $QTY >> $LOG_FILE.times.log 2>&1
+time ./crystal/bench $QTY >> $LOG_FILE.0.18.7_release.times.log 2>&1
+
+echo
+echo "Crystal 0.19.0 (release)"
+
+crenv shell 0.19.0
+crystal version
+crystal build ./crystal/bench.cr --release # --emit obj --prelude=empty --release
+cp bench ./crystal/bench_0.19.0
+mv bench ./crystal/bench
+for VARIABLE in 1 2 3 4 5
+do
+./crystal/bench $QTY >> $LOG_FILE.0.19.0_release.csv
+done
+time ./crystal/bench $QTY >> $LOG_FILE.0.19.0_release.times.log 2>&1
+
+echo
+echo "Crystal 0.19.4 (release)"
+
+crenv shell 0.19.4
+crystal version
+crystal build ./crystal/bench.cr --release # --emit obj --prelude=empty --release
+cp bench ./crystal/bench_0.19.4
+mv bench ./crystal/bench
+for VARIABLE in 1 2 3 4 5
+do
+./crystal/bench $QTY >> $LOG_FILE.0.19.4_release.csv
+done
+time ./crystal/bench $QTY >> $LOG_FILE.0.19.4_release.times.log 2>&1
+
+echo
+echo "Crystal 0.20.0 (release)"
+
+crenv shell 0.20.0
+crystal version
+crystal build ./crystal/bench.cr --release # --emit obj --prelude=empty --release
+cp bench ./crystal/bench_0.20.0
+mv bench ./crystal/bench
+for VARIABLE in 1 2 3 4 5
+do
+./crystal/bench $QTY >> $LOG_FILE.0.20.0_release.csv
+done
+time ./crystal/bench $QTY >> $LOG_FILE.0.20.0_release.times.log 2>&1
+
+echo
+echo "Crystal 0.20.1 (release)"
+
+crenv shell 0.20.1
+crystal version
+crystal build ./crystal/bench.cr --release # --emit obj --prelude=empty --release
+cp bench ./crystal/bench_0.20.1
+mv bench ./crystal/bench
+for VARIABLE in 1 2 3 4 5
+do
+./crystal/bench $QTY >> $LOG_FILE.0.20.1_release.csv
+done
+time ./crystal/bench $QTY >> $LOG_FILE.0.20.1_release.times.log 2>&1
+
+
+echo
+echo "Crystal 0.20.3 (release)"
+
+crenv shell 0.20.3
+crystal version
+crystal build ./crystal/bench.cr --release # --emit obj --prelude=empty --release
+cp bench ./crystal/bench_0.20.3
+mv bench ./crystal/bench
+for VARIABLE in 1 2 3 4 5
+do
+./crystal/bench $QTY >> $LOG_FILE.0.20.3_release.csv
+done
+time ./crystal/bench $QTY >> $LOG_FILE.0.20.3_release.times.log 2>&1
+
+echo
+echo "Crystal 0.20.4 (release)"
+
+crenv shell 0.20.4
+crystal version
+crystal build ./crystal/bench.cr --release # --emit obj --prelude=empty --release
+cp bench ./crystal/bench_0.20.4
+mv bench ./crystal/bench
+for VARIABLE in 1 2 3 4 5
+do
+./crystal/bench $QTY >> $LOG_FILE.0.20.4_release.csv
+done
+time ./crystal/bench $QTY >> $LOG_FILE.0.20.4_release.times.log 2>&1
 
 ## Mruby:
 
